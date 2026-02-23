@@ -1,0 +1,11 @@
+{
+  "name": "滋賀 映画スケジュール",
+  "short_name": "滋賀映画",
+  "description": "滋賀県内5館の映画上映スケジュール検索",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f0f2f5",
+  "theme_color": "#1a1a2e",
+  "lang": "ja",
+  "icons": []
+}

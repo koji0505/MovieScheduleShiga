@@ -1,0 +1,471 @@
+ユナイテッド・シネマ大津
+https://press.moviewalker.jp/th524/schedule/
+
+イオンシネマ草津
+https://press.moviewalker.jp/th249/schedule/
+
+イオンシネマ近江八幡
+https://press.moviewalker.jp/th393/schedule/
+
+水口アレックスシネマ
+https://press.moviewalker.jp/th525/schedule/
+
+彦根ビバシティシネマ
+https://press.moviewalker.jp/th138/schedule/
+
+
+
+ユナイテッド・シネマ大津
+https://press.moviewalker.jp/th524/schedule/
+各映画のスケジュール表示部分の要素
+
+<article>
+                  
+                    <a href="/mv89955/">
+                      <dl class="un_theaterSchedule_movie_info">
+                        <dt>
+                          <figure>
+                            <picture>
+                              <source type="image/webp" srcset="https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89955_21384306c63d6b9c936ee71ea34569c9647c7f.jpg?h=240&amp;f=webp">
+                              <img src="https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89955_21384306c63d6b9c936ee71ea34569c9647c7f.jpg?h=240" alt="映画「教場 Requiem」">
+                            </picture>
+                          </figure>
+                        </dt>
+                        <dd>
+                          <h2>映画「教場 Requiem」</h2>
+                          <div class="bl_theaterSchedule_date_rating">
+                            
+<time datetime="2026-2-20">2026年2月20日公開</time>、155分、ヒューマンドラマ／サスペンス・ミステリー                            
+                              <span style="color: #0099ea; border-color: #0099ea;">PG12</span>
+                            
+                          </div>
+                          <ul class="bl_theaterSchedule_likes">
+                            <li class="bl_theaterSchedule_review">
+                              <span>
+                                <svg viewBox="0 0 40 40">
+                                  <use xlink:href="/assets/images/icons.svg#star"></use>
+                                </svg>
+                              </span>
+                              <span>4.4</span>
+                            </li>
+                            <li class="bl_theaterSchedule_fav">
+                              <span>
+                                <svg viewBox="0 0 40 40">
+                                  <use xlink:href="/assets/images/icons.svg#heart"></use>
+                                </svg>
+                              </span>
+                              <span>14523</span>
+                            </li>
+                          </ul>
+                          <span>
+                            <svg viewBox="0 0 40 40">
+                              <use xlink:href="/assets/images/icons.svg#chevron-r"></use>
+                            </svg>
+                          </span>
+                        </dd>
+                      </dl>
+                    </a>
+                  
+                    
+
+
+
+
+
+
+<div class="bl_screen">
+  
+    
+    
+    <div class="bl_screen_attention">
+      <ul>
+        
+          <li>※終了日 未定&nbsp;&nbsp;</li>
+        
+      </ul>
+    </div>
+    <div class="bl_screen_timeTable">
+      <ul class="">
+        
+        <li>
+          <dl>
+            
+            <dt>
+              
+                <div class="date">
+                2/24<br><span>火</span>
+                </div>
+              
+            </dt>
+            
+            
+            
+            <dd> 
+              
+                
+                
+                  
+                  
+                    
+                    
+                      
+                      
+                        <a class="startTime linkButton" href="http://www.unitedcinemas.jp/otsu" target="_blank">
+                          8:45
+                        </a>
+                      
+                      
+                    
+                  
+                    
+                    
+                      
+                      
+                        <a class="startTime linkButton" href="http://www.unitedcinemas.jp/otsu" target="_blank">
+                          12:00
+                        </a>
+                      
+                      
+                    
+                  
+                    
+                    
+                      
+                      
+                        <a class="startTime linkButton" href="http://www.unitedcinemas.jp/otsu" target="_blank">
+                          15:10
+                        </a>
+                      
+                      
+                    
+                  
+                    
+                    
+                      
+                      
+                        <a class="startTime linkButton" href="http://www.unitedcinemas.jp/otsu" target="_blank">
+                          16:50
+                        </a>
+                      
+                      
+                    
+                  
+                    
+                    
+                      
+                      
+                        <a class="startTime linkButton" href="http://www.unitedcinemas.jp/otsu" target="_blank">
+                          18:20
+                        </a>
+                      
+                      
+                    
+                  
+                    
+                    
+                      
+                      
+                        <a class="startTime linkButton" href="http://www.unitedcinemas.jp/otsu" target="_blank">
+                          20:00
+                        </a>
+                      
+                      
+                    
+                   
+                
+              
+            </dd>
+          </dl>
+        </li>
+        
+        <li>
+          <dl>
+            
+            <dt>
+              
+                <div class="date">
+                2/25<br><span>水</span>
+                </div>
+              
+            </dt>
+            
+            
+            
+            <dd> 
+              
+                
+                
+                  
+                  
+                    
+                    
+                      
+                      
+                        <a class="startTime linkButton" href="http://www.unitedcinemas.jp/otsu" target="_blank">
+                          8:45
+                        </a>
+                      
+                      
+                    
+                  
+                    
+                    
+                      
+                      
+                        <a class="startTime linkButton" href="http://www.unitedcinemas.jp/otsu" target="_blank">
+                          12:00
+                        </a>
+                      
+                      
+                    
+                  
+                    
+                    
+                      
+                      
+                        <a class="startTime linkButton" href="http://www.unitedcinemas.jp/otsu" target="_blank">
+                          15:10
+                        </a>
+                      
+                      
+                    
+                  
+                    
+                    
+                      
+                      
+                        <a class="startTime linkButton" href="http://www.unitedcinemas.jp/otsu" target="_blank">
+                          16:50
+                        </a>
+                      
+                      
+                    
+                  
+                    
+                    
+                      
+                      
+                        <a class="startTime linkButton" href="http://www.unitedcinemas.jp/otsu" target="_blank">
+                          18:20
+                        </a>
+                      
+                      
+                    
+                  
+                    
+                    
+                      
+                      
+                        <a class="startTime linkButton" href="http://www.unitedcinemas.jp/otsu" target="_blank">
+                          20:00
+                        </a>
+                      
+                      
+                    
+                   
+                
+              
+            </dd>
+          </dl>
+        </li>
+        
+        <li>
+          <dl>
+            
+            <dt>
+              
+                <div class="date">
+                2/26<br><span>木</span>
+                </div>
+              
+            </dt>
+            
+            
+            
+            <dd> 
+              
+                
+                
+                  
+                  
+                    
+                    
+                      
+                      
+                        <a class="startTime linkButton" href="http://www.unitedcinemas.jp/otsu" target="_blank">
+                          9:15
+                        </a>
+                      
+                      
+                    
+                  
+                    
+                    
+                      
+                      
+                        <a class="startTime linkButton" href="http://www.unitedcinemas.jp/otsu" target="_blank">
+                          12:30
+                        </a>
+                      
+                      
+                    
+                  
+                    
+                    
+                      
+                      
+                        <a class="startTime linkButton" href="http://www.unitedcinemas.jp/otsu" target="_blank">
+                          15:40
+                        </a>
+                      
+                      
+                    
+                  
+                    
+                    
+                      
+                      
+                        <a class="startTime linkButton" href="http://www.unitedcinemas.jp/otsu" target="_blank">
+                          16:50
+                        </a>
+                      
+                      
+                    
+                  
+                    
+                    
+                      
+                      
+                        <a class="startTime linkButton" href="http://www.unitedcinemas.jp/otsu" target="_blank">
+                          20:00
+                        </a>
+                      
+                      
+                    
+                   
+                
+              
+            </dd>
+          </dl>
+        </li>
+        
+        <li>
+          <dl>
+            
+            <dt>
+              
+                <div class="date">
+                2/27<br><span>金</span>
+                </div>
+              
+            </dt>
+            
+            
+            
+            <dd> 
+              
+                
+                
+                  <div></div>
+                
+              
+            </dd>
+          </dl>
+        </li>
+        
+        <li>
+          <dl>
+            
+            <dt>
+              
+                <div class="date saturday">
+                2/28<br><span>土</span>
+                </div>
+              
+            </dt>
+            
+            
+            
+            <dd> 
+              
+                
+                
+                  <div></div>
+                
+              
+            </dd>
+          </dl>
+        </li>
+        
+        <li>
+          <dl>
+            
+            <dt>
+              
+                <div class="date sunday">
+                3/01<br><span>日</span>
+                </div>
+              
+            </dt>
+            
+            
+            
+            <dd> 
+              
+                
+                
+                  <div></div>
+                
+              
+            </dd>
+          </dl>
+        </li>
+        
+        <li>
+          <dl>
+            
+            <dt>
+              
+                <div class="date">
+                3/02<br><span>月</span>
+                </div>
+              
+            </dt>
+            
+            
+            
+            <dd> 
+              
+                
+                
+                  <div></div>
+                
+              
+            </dd>
+          </dl>
+        </li>
+        
+      </ul>
+    </div>
+    
+      <div class="bl_screen_scheduleLink">
+        <a href="/mv89955/schedule/th524/">
+          この作品の上映スケジュールを見る<img src="/assets/images/icon-angle-right.svg" data-src="/assets/images/icon-angle-right.svg" class="lazyload entered loaded" data-ll-status="loaded">
+        </a>
+      </div>
+    
+  
+</div>
+
+                    
+                      
+                        <div class="un_theaterSchedule_btn_ticket_today">
+                          <a href="https://mvtk.jp/Film/089955?from=mw_th_rs_sd_1&amp;pattern=b" target="_brank" class="el_bdrBtn el_bdrBtn__iconR el_btn__block">
+                            <span><img src="/assets/images/mvtk-today-blue.svg" data-src="/assets/images/mvtk-today-blue.svg" alt="" class="lazyload entered loaded" data-ll-status="loaded"></span>
+                            <span>上映終了日まで</span> <span>使える！</span>
+                            <span><svg viewBox="0 0 40 40"><use xlink:href="/assets/images/icons.svg#chevron-r"></use></svg></span>
+                          </a>
+                        </div>
+                       
+                    
+                  </article>

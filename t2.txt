@@ -1,0 +1,69 @@
+プレビューを見ると、「レスポンスデータの読み込みに失敗しました」と出ます。
+
+ヘッダーは下記の通りです。
+
+全般
+
+リクエスト URL
+https://cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json?date=20260224
+リクエスト メソッド
+GET
+ステータス コード
+200 OK （ディスク キャッシュから）
+リモート アドレス
+[2a04:4e42::485]:443
+参照ポリシー
+strict-origin-when-cross-origin
+
+レスポンスヘッダー
+
+accept-ranges
+bytes
+access-control-allow-origin
+*
+access-control-expose-headers
+*
+age
+1007
+alt-svc
+h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+cache-control
+public, max-age=604800, s-maxage=43200
+content-encoding
+br
+content-length
+816
+content-type
+application/json; charset=utf-8
+cross-origin-resource-policy
+cross-origin
+date
+Mon, 23 Feb 2026 16:17:31 GMT
+etag
+W/"60c-tEgUQVvYEF8+sxezejKHbtS5XBs"
+timing-allow-origin
+*
+vary
+Accept-Encoding
+x-cache
+HIT, HIT
+x-content-type-options
+nosniff
+x-jsd-version
+1.0.2711
+x-jsd-version-type
+version
+x-served-by
+cache-fra-etou8220102-FRA, cache-itm1220064-ITM
+content-type
+text/plain
+referer
+https://press.moviewalker.jp/
+sec-ch-ua
+"Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"
+sec-ch-ua-mobile
+?0
+sec-ch-ua-platform
+"Windows"
+user-agent
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36

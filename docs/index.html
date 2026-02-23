@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>滋賀 映画スケジュール</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1a1a2e">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="滋賀映画">
+</head>
+<body>
+  <header>
+    <h1>滋賀 映画スケジュール</h1>
+  </header>
+
+  <main>
+    <div class="search-container">
+      <input type="search" id="searchInput" placeholder="映画タイトルで検索..." autocomplete="off" autocorrect="off">
+    </div>
+
+    <div id="updatedAt" class="updated-at"></div>
+    <div id="results"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

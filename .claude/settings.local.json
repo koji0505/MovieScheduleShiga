@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /c/c_works/MovieScheduleShiga && pip install -r scraper/requirements.txt 2>&1)",
+      "Bash(cd /c/c_works/MovieScheduleShiga && python scraper/scrape.py 2>&1)"
+    ]
+  }
+}

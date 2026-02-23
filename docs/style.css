@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+  background: #f0f2f5;
+  color: #333;
+  min-height: 100vh;
+}
+
+header {
+  background: #1a1a2e;
+  color: white;
+  padding: 14px 16px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+main {
+  padding: 14px 12px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-container {
+  margin-bottom: 6px;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  background: white;
+  transition: border-color 0.2s;
+}
+
+#searchInput:focus {
+  border-color: #1a1a2e;
+}
+
+.updated-at {
+  font-size: 11px;
+  color: #999;
+  margin-bottom: 14px;
+  text-align: right;
+}
+
+.movie-card {
+  background: white;
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+}
+
+.movie-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee;
+  line-height: 1.4;
+}
+
+.theater-block {
+  margin-bottom: 10px;
+}
+
+.theater-block:last-child {
+  margin-bottom: 0;
+}
+
+.theater-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: #666;
+  background: #f5f5f5;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.schedule-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 3px 4px;
+  font-size: 14px;
+}
+
+.schedule-date {
+  color: #666;
+  min-width: 82px;
+  font-size: 13px;
+  flex-shrink: 0;
+}
+
+.schedule-times {
+  color: #1a1a2e;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.no-results,
+.error {
+  text-align: center;
+  color: #999;
+  padding: 48px 16px;
+  font-size: 15px;
+}
+
+.error {
+  color: #e74c3c;
+}
