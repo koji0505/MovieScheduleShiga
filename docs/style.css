@@ -52,6 +52,36 @@ main {
   border-color: #1a1a2e;
 }
 
+.date-filter {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding: 8px 0;
+  scrollbar-width: none;
+}
+
+.date-filter::-webkit-scrollbar {
+  display: none;
+}
+
+.date-btn {
+  flex-shrink: 0;
+  padding: 6px 14px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background: white;
+  font-size: 13px;
+  cursor: pointer;
+  color: #555;
+  transition: all 0.15s;
+}
+
+.date-btn.active {
+  background: #1a1a2e;
+  color: white;
+  border-color: #1a1a2e;
+}
+
 .updated-at {
   font-size: 11px;
   color: #999;

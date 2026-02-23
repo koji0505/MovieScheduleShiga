@@ -1,4 +1,5 @@
 let movieIndex = null;
+let selectedDate = "";
 
 // theaters[館名][映画] → movieIndex[タイトル][館名] に再編成
 function buildMovieIndex(data) {
@@ -14,10 +15,43 @@ function buildMovieIndex(data) {
   return index;
 }
 
+// データ内に存在する日付一覧を取得
+function getAvailableDates(data) {
+  const dates = new Set();
+  for (const movies of Object.values(data.theaters)) {
+    for (const movie of movies) {
+      for (const s of movie.schedule) {
+        dates.add(s.date);
+      }
+    }
+  }
+  return [...dates].sort();
+}
+
 function formatDate(dateStr) {
   const d = new Date(dateStr + "T00:00:00");
   const days = ["日", "月", "火", "水", "木", "金", "土"];
   return `${d.getMonth() + 1}/${d.getDate()}(${days[d.getDay()]})`;
+}
+
+function renderDateFilter(dates) {
+  const container = document.getElementById("dateFilter");
+  container.innerHTML = ["", ...dates]
+    .map((date) => {
+      const label = date === "" ? "すべて" : formatDate(date);
+      const active = date === selectedDate ? " active" : "";
+      return `<button class="date-btn${active}" data-date="${date}">${label}</button>`;
+    })
+    .join("");
+
+  container.querySelectorAll(".date-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      selectedDate = btn.dataset.date;
+      container.querySelectorAll(".date-btn").forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      render(document.getElementById("searchInput").value);
+    });
+  });
 }
 
 function render(query) {
@@ -25,9 +59,23 @@ function render(query) {
   if (!movieIndex) return;
 
   const q = query.trim();
-  const entries = Object.entries(movieIndex).filter(([title]) =>
-    q === "" || title.includes(q)
-  );
+
+  const entries = Object.entries(movieIndex)
+    .filter(([title]) => q === "" || title.includes(q))
+    .map(([title, info]) => {
+      // 日付フィルタを各館のスケジュールに適用
+      const theaters = {};
+      for (const [theaterName, schedule] of Object.entries(info.theaters)) {
+        const filtered = selectedDate
+          ? schedule.filter((s) => s.date === selectedDate)
+          : schedule;
+        if (filtered.length > 0) {
+          theaters[theaterName] = filtered;
+        }
+      }
+      return { title, theaters };
+    })
+    .filter(({ theaters }) => Object.keys(theaters).length > 0);
 
   if (entries.length === 0) {
     results.innerHTML = '<p class="no-results">該当する映画が見つかりません</p>';
@@ -35,8 +83,8 @@ function render(query) {
   }
 
   results.innerHTML = entries
-    .map(([title, info]) => {
-      const theatersHtml = Object.entries(info.theaters)
+    .map(({ title, theaters }) => {
+      const theatersHtml = Object.entries(theaters)
         .map(([theaterName, schedule]) => {
           const scheduleHtml = schedule
             .map(
@@ -75,6 +123,8 @@ async function loadData() {
       `更新: ${dt.toLocaleString("ja-JP")}`;
   }
 
+  const dates = getAvailableDates(data);
+  renderDateFilter(dates);
   render("");
 }
 
