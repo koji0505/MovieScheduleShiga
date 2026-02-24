@@ -12,19 +12,39 @@
   <meta name="apple-mobile-web-app-title" content="滋賀映画">
 </head>
 <body>
-  <header>
-    <h1>滋賀 映画スケジュール</h1>
-  </header>
 
-  <main>
-    <div class="search-container">
-      <input type="search" id="searchInput" placeholder="映画タイトルで検索..." autocomplete="off" autocorrect="off">
-    </div>
+  <!-- ホーム画面 -->
+  <div id="homeView">
+    <header>
+      <div class="header-row">
+        <h1>滋賀 映画スケジュール</h1>
+        <button class="search-icon-btn" onclick="showSearch()">🔍</button>
+      </div>
+      <div id="homeUpdatedAt" class="header-updated-at"></div>
+    </header>
+    <main>
+      <div id="homeGrid" class="home-grid"></div>
+    </main>
+  </div>
 
-    <div id="dateFilter" class="date-filter"></div>
-    <div id="updatedAt" class="updated-at"></div>
-    <div id="results"></div>
-  </main>
+  <!-- 検索画面 -->
+  <div id="searchView" hidden>
+    <header>
+      <div class="header-row">
+        <button class="back-btn" onclick="showHome()">← ホーム</button>
+        <h1>スケジュール検索</h1>
+      </div>
+    </header>
+    <main>
+      <div class="controls">
+        <input type="search" id="searchInput" placeholder="映画タイトルで検索..." autocomplete="off" autocorrect="off">
+        <select id="theaterSelect" class="theater-select"></select>
+        <div id="dateFilter" class="date-filter"></div>
+        <div id="updatedAt" class="updated-at"></div>
+      </div>
+      <div id="results"></div>
+    </main>
+  </div>
 
   <script src="app.js"></script>
 </body>
