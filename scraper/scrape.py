@@ -63,6 +63,10 @@ def scrape_theater(theater_name: str, theater_id: str, today: datetime) -> list:
             if m:
                 movie_id = m.group(1)
 
+        # ポスター画像URL取得
+        img_tag = article.find("img")
+        poster_url = img_tag["src"] if img_tag and img_tag.get("src") else ""
+
         # スケジュール取得
         schedule = []
         time_table = article.find("div", class_="bl_screen_timeTable")
@@ -91,6 +95,7 @@ def scrape_theater(theater_name: str, theater_id: str, today: datetime) -> list:
             movies.append({
                 "title": title,
                 "movie_id": movie_id,
+                "poster_url": poster_url,
                 "schedule": schedule,
             })
 
