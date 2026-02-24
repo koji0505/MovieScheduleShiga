@@ -79,7 +79,7 @@ function renderHome() {
         ${posterHtml}
         <div class="home-card-body">
           <div class="home-card-title">${movie.title}</div>
-          <a class="detail-link" href="https://www.moviewalker.jp/mv${movie.movie_id}/" target="_blank" rel="noopener" onclick="event.stopPropagation()">詳細</a>
+          <a class="detail-link" href="https://moviewalker.jp/mv${movie.movie_id}/" target="_blank" rel="noopener" onclick="event.stopPropagation()">詳細</a>
         </div>
       </div>`;
   }).join('');
