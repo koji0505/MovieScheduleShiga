@@ -2,7 +2,7 @@ name: Scrape Movie Schedules
 
 on:
   schedule:
-    - cron: '5 0 * * *'  # 毎日 JST 9:05 (UTC 0:05)
+    - cron: '0 20 * * *'  # 毎日 JST 5:00 (UTC 20:00)
   workflow_dispatch:       # 手動実行も可能
 
 permissions:
