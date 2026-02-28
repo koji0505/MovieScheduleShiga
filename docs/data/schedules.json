@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-27T20:23:20",
+  "updated_at": "2026-02-28T20:20:41",
   "theaters": {
     "ユナイテッド・シネマ大津": [
       {
@@ -7,16 +7,6 @@
         "movie_id": "90945",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90945_206947dedbd7b24faef685641aa5c3d9be7fcc.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "8:45",
-              "11:10",
-              "13:40",
-              "16:00",
-              "18:20"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -71,14 +61,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv87487_2053512d472c99bb4986c91bfa17563e1c62f5.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "11:00",
-              "14:25",
-              "21:00"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "8:30",
@@ -130,15 +112,6 @@
         "movie_id": "91037",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91037_209026bd1c3d57342b3790bd6ad9304db8138a.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "8:15",
-              "10:50",
-              "13:30",
-              "16:10"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -192,15 +165,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85851_214008f3769c1466222b64a0c749acb43294f6.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "8:30",
-              "11:00",
-              "13:30",
-              "16:00"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "8:15",
@@ -253,13 +217,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv92001_212859175d6e72cdc257124d5340b83968652b.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "11:40",
-              "19:00"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "11:40",
@@ -301,15 +258,6 @@
         "movie_id": "89955",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89955_21384306c63d6b9c936ee71ea34569c9647c7f.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "8:30",
-              "14:30",
-              "17:40",
-              "21:00"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -363,13 +311,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90750_2140904babb4d516f0e71dc3ca0379731e0afe.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "16:25",
-              "20:00"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "15:50"
@@ -407,12 +348,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91447_2090788f77469ff49ad3dde7551883afe11f7a.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "10:30"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "10:30"
@@ -449,12 +384,6 @@
         "movie_id": "89668",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89668_2061272402286cd062c33824fcc53f39640b8e.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "8:15"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -498,12 +427,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91343_210995be61052e618d731de72f0f8dce8e93db.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "18:40"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "18:40"
@@ -540,12 +463,6 @@
         "movie_id": "88862",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv88862_200949e9afc1ddcf59aaf4146522ca182b1e7f.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "20:50"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -584,12 +501,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89482_2074675432ef88cb79a3746e5bdcaa3eb10a5e.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "20:40"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "20:40"
@@ -627,12 +538,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv81468_2104827b77197bab3a5c301156a5ae64078d6d.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "13:40"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "13:20"
@@ -669,12 +574,6 @@
         "movie_id": "85187",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85187_199894fdd66059229401955cf9296cfe758460.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "8:15"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -743,12 +642,6 @@
         "movie_id": "85699",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85699_184009e24fa1c919a4dd4ed426f56f6f19dbd0.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "17:30"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -821,20 +714,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90945_206947dedbd7b24faef685641aa5c3d9be7fcc.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "8:35",
-              "9:35",
-              "11:00",
-              "12:00",
-              "13:25",
-              "14:25",
-              "15:50",
-              "18:15",
-              "20:40"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "8:35",
@@ -899,17 +778,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv87487_2053512d472c99bb4986c91bfa17563e1c62f5.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "8:25",
-              "11:00",
-              "14:25",
-              "17:15",
-              "19:30",
-              "21:45"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "8:25",
@@ -972,16 +840,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91037_209026bd1c3d57342b3790bd6ad9304db8138a.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "8:30",
-              "11:05",
-              "13:40",
-              "16:15",
-              "21:45"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "8:10",
@@ -1039,15 +897,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85851_214008f3769c1466222b64a0c749acb43294f6.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "8:20",
-              "10:45",
-              "14:30",
-              "21:35"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "8:20",
@@ -1100,13 +949,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91359_210634145c9546390d6b51db25bb2f72af90bf.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "10:50",
-              "19:15"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "10:50",
@@ -1148,16 +990,6 @@
         "movie_id": "89955",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89955_21384306c63d6b9c936ee71ea34569c9647c7f.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "8:20",
-              "11:25",
-              "14:30",
-              "18:35",
-              "21:15"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -1216,12 +1048,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91090_208135b76135b3d00a90fc5c7723c63e3630e3.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "14:25"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "16:05"
@@ -1261,12 +1087,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91369_2060540c68605a392cb3e1fc38bbbeb861228a.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "17:35"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "8:25"
@@ -1303,12 +1123,6 @@
         "movie_id": "84421",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv84421_210288a34412e2a03a50f62900107f754e250f.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "19:00"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -1347,12 +1161,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91813_20905644bdff7f4d42556fc9317952e176d7d9.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "21:35"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "21:20"
@@ -1389,14 +1197,6 @@
         "movie_id": "90750",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90750_2140904babb4d516f0e71dc3ca0379731e0afe.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "8:15",
-              "16:30",
-              "20:00"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -1445,12 +1245,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91447_2090788f77469ff49ad3dde7551883afe11f7a.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "18:50"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "21:25"
@@ -1487,12 +1281,6 @@
         "movie_id": "91502",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91502_208117b8528e6f6f91a38255f4df4adb51583d.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "8:15"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -1531,12 +1319,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv87510_207084958ff6b6781e1cc9360eb6522fb5ef89.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "17:00"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "17:00"
@@ -1573,14 +1355,6 @@
         "movie_id": "89668",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89668_2061272402286cd062c33824fcc53f39640b8e.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "13:15",
-              "15:55",
-              "21:40"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -1628,13 +1402,6 @@
         "movie_id": "91897",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91897_208965370514b99d692f2ac165adcd777658ea.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "13:10",
-              "17:50"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -1740,13 +1507,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv88862_200949e9afc1ddcf59aaf4146522ca182b1e7f.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "10:35",
-              "19:10"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "15:20",
@@ -1789,12 +1549,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89482_2074675432ef88cb79a3746e5bdcaa3eb10a5e.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "8:10"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "19:25"
@@ -1832,12 +1586,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89965_210858c1ae57f906987297cd4b935c4d73b551.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "19:35"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "20:00"
@@ -1850,13 +1598,6 @@
         "movie_id": "81468",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv81468_2104827b77197bab3a5c301156a5ae64078d6d.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "13:00",
-              "15:25"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -1896,12 +1637,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85187_199894fdd66059229401955cf9296cfe758460.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "16:50"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "17:45"
@@ -1939,12 +1674,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv86659_177110164a4a2395dcedc393b6f8983ca49531.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "21:10"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "20:55"
@@ -1981,12 +1710,6 @@
         "movie_id": "85699",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85699_184009e24fa1c919a4dd4ed426f56f6f19dbd0.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "10:55"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -2026,18 +1749,6 @@
         "movie_id": "90945",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90945_206947dedbd7b24faef685641aa5c3d9be7fcc.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "8:40",
-              "11:05",
-              "12:05",
-              "13:30",
-              "16:00",
-              "17:35",
-              "20:00"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -2101,17 +1812,6 @@
         "movie_id": "87487",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv87487_2053512d472c99bb4986c91bfa17563e1c62f5.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "8:40",
-              "11:00",
-              "14:25",
-              "16:15",
-              "18:30",
-              "20:50"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -2177,16 +1877,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91037_209026bd1c3d57342b3790bd6ad9304db8138a.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "8:35",
-              "11:10",
-              "13:45",
-              "16:10",
-              "21:30"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "8:35",
@@ -2244,15 +1934,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85851_214008f3769c1466222b64a0c749acb43294f6.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "8:25",
-              "11:25",
-              "14:25",
-              "18:35"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "8:25",
@@ -2304,15 +1985,6 @@
         "movie_id": "89955",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89955_21384306c63d6b9c936ee71ea34569c9647c7f.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "8:50",
-              "11:55",
-              "15:00",
-              "20:45"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -2370,12 +2042,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91090_208135b76135b3d00a90fc5c7723c63e3630e3.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "16:50"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "14:55",
@@ -2418,12 +2084,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91369_2060540c68605a392cb3e1fc38bbbeb861228a.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "19:30"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "18:55"
@@ -2461,12 +2121,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91501_208186576b9d61ab48fb9bcdda5caed0955a6b.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "18:45"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "18:20"
@@ -2503,13 +2157,6 @@
         "movie_id": "90750",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90750_2140904babb4d516f0e71dc3ca0379731e0afe.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "16:30",
-              "20:00"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -2553,12 +2200,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91447_2090788f77469ff49ad3dde7551883afe11f7a.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "21:00"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "20:55"
@@ -2596,12 +2237,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89601_19492219510f8f812e0336b369a39a0e1a9f1a.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "10:50"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "16:55"
@@ -2638,14 +2273,6 @@
         "movie_id": "89668",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89668_2061272402286cd062c33824fcc53f39640b8e.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "10:50",
-              "13:30",
-              "18:05"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -2729,13 +2356,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv88862_200949e9afc1ddcf59aaf4146522ca182b1e7f.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "13:10",
-              "21:35"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "16:20",
@@ -2778,12 +2398,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89482_2074675432ef88cb79a3746e5bdcaa3eb10a5e.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "8:20"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "8:20"
@@ -2820,13 +2434,6 @@
         "movie_id": "81468",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv81468_2104827b77197bab3a5c301156a5ae64078d6d.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "9:00",
-              "13:50"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -2866,12 +2473,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85187_199894fdd66059229401955cf9296cfe758460.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "18:50"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "18:45"
@@ -2909,12 +2510,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv86659_177110164a4a2395dcedc393b6f8983ca49531.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "21:05"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "17:45"
@@ -2951,12 +2546,6 @@
         "movie_id": "85699",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85699_184009e24fa1c919a4dd4ed426f56f6f19dbd0.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "8:35"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -2996,18 +2585,6 @@
         "movie_id": "90945",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90945_206947dedbd7b24faef685641aa5c3d9be7fcc.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "9:15",
-              "10:00",
-              "12:10",
-              "13:00",
-              "14:20",
-              "16:30",
-              "19:30"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -3067,16 +2644,6 @@
         "movie_id": "89955",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89955_21384306c63d6b9c936ee71ea34569c9647c7f.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "9:30",
-              "12:20",
-              "15:20",
-              "18:10",
-              "21:00"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -3135,14 +2702,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89768_202751a0056c683da8a02194e9a5540ed5d32e.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "11:20",
-              "16:00",
-              "21:30"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "11:20",
@@ -3189,14 +2748,6 @@
         "movie_id": "90750",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90750_2140904babb4d516f0e71dc3ca0379731e0afe.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "11:50",
-              "17:00",
-              "21:40"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -3245,14 +2796,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89668_2061272402286cd062c33824fcc53f39640b8e.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "9:20",
-              "14:30",
-              "20:50"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "9:20",
@@ -3300,13 +2843,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv88862_200949e9afc1ddcf59aaf4146522ca182b1e7f.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "15:10",
-              "21:40"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "15:10",
@@ -3349,12 +2885,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91370_212432de986f64ade0077a4ce50ba1c89755cc.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "18:35"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "18:35"
@@ -3391,13 +2921,6 @@
         "movie_id": "81468",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv81468_2104827b77197bab3a5c301156a5ae64078d6d.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "13:50",
-              "19:30"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -3441,12 +2964,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85187_199894fdd66059229401955cf9296cfe758460.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "17:20"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "17:20"
@@ -3484,12 +3001,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv86659_177110164a4a2395dcedc393b6f8983ca49531.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "18:30"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "18:30"
@@ -3526,12 +3037,6 @@
         "movie_id": "85699",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85699_184009e24fa1c919a4dd4ed426f56f6f19dbd0.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "9:40"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -3571,15 +3076,6 @@
         "movie_id": "90945",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90945_206947dedbd7b24faef685641aa5c3d9be7fcc.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "10:40",
-              "12:50",
-              "15:00",
-              "17:15"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -3633,15 +3129,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91037_209026bd1c3d57342b3790bd6ad9304db8138a.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "10:30",
-              "12:50",
-              "18:45",
-              "21:45"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "10:30",
@@ -3693,15 +3180,6 @@
         "movie_id": "89955",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89955_21384306c63d6b9c936ee71ea34569c9647c7f.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "10:30",
-              "13:20",
-              "18:35",
-              "21:05"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -3755,14 +3233,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90750_2140904babb4d516f0e71dc3ca0379731e0afe.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "16:10",
-              "19:20",
-              "21:25"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "16:10",
@@ -3809,15 +3279,6 @@
         "movie_id": "89668",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89668_2061272402286cd062c33824fcc53f39640b8e.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "10:40",
-              "13:05",
-              "19:10",
-              "21:35"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
@@ -3871,12 +3332,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv88862_200949e9afc1ddcf59aaf4146522ca182b1e7f.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "17:05"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "17:05"
@@ -3914,12 +3369,6 @@
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv81468_2104827b77197bab3a5c301156a5ae64078d6d.jpg?h=240",
         "schedule": [
           {
-            "date": "2026-02-28",
-            "times": [
-              "15:10"
-            ]
-          },
-          {
             "date": "2026-03-01",
             "times": [
               "15:10"
@@ -3956,12 +3405,6 @@
         "movie_id": "85699",
         "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85699_184009e24fa1c919a4dd4ed426f56f6f19dbd0.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-02-28",
-            "times": [
-              "15:30"
-            ]
-          },
           {
             "date": "2026-03-01",
             "times": [
