@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import re
 import os
+import shutil
 from datetime import datetime
 
 THEATERS = {
@@ -14,6 +15,7 @@ THEATERS = {
 }
 
 BASE_URL = "https://press.moviewalker.jp/{}/schedule/"
+POSTER_BASE_URL = "https://koji0505.github.io/MovieScheduleShiga/data/posters/"
 
 HEADERS = {
     "User-Agent": (
@@ -63,9 +65,9 @@ def scrape_theater(theater_name: str, theater_id: str, today: datetime) -> list:
             if m:
                 movie_id = m.group(1)
 
-        # ポスター画像URL取得
+        # ポスター画像URL取得（元URL）
         img_tag = article.find("img")
-        poster_url = img_tag["src"] if img_tag and img_tag.get("src") else ""
+        original_poster_url = img_tag["src"] if img_tag and img_tag.get("src") else ""
 
         # スケジュール取得
         schedule = []
@@ -95,11 +97,44 @@ def scrape_theater(theater_name: str, theater_id: str, today: datetime) -> list:
             movies.append({
                 "title": title,
                 "movie_id": movie_id,
-                "poster_url": poster_url,
+                "original_poster_url": original_poster_url,
                 "schedule": schedule,
             })
 
     return movies
+
+
+def download_posters(theaters: dict, poster_dir: str) -> dict:
+    """ポスターをダウンロードして保存し、movie_id -> ローカルURLのマップを返す"""
+    # 毎回ディレクトリを削除して再作成
+    if os.path.exists(poster_dir):
+        shutil.rmtree(poster_dir)
+    os.makedirs(poster_dir)
+
+    # 全館から movie_id -> original_poster_url を収集（重複排除）
+    poster_map = {}
+    for movies in theaters.values():
+        for movie in movies:
+            movie_id = movie.get("movie_id")
+            url = movie.get("original_poster_url", "")
+            if movie_id and url and movie_id not in poster_map:
+                poster_map[movie_id] = url
+
+    # ダウンロード
+    saved = {}
+    for movie_id, url in poster_map.items():
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=10)
+            resp.raise_for_status()
+            path = os.path.join(poster_dir, f"{movie_id}.jpg")
+            with open(path, "wb") as f:
+                f.write(resp.content)
+            saved[movie_id] = f"{POSTER_BASE_URL}{movie_id}.jpg"
+            print(f"  Poster saved: {movie_id}.jpg")
+        except Exception as e:
+            print(f"  Poster failed ({movie_id}): {e}")
+
+    return saved
 
 
 def main():
@@ -114,6 +149,22 @@ def main():
         movies = scrape_theater(name, tid, today)
         result["theaters"][name] = movies
         print(f"  -> {len(movies)} 件")
+
+    # ポスターをダウンロード
+    poster_dir = os.path.join(
+        os.path.dirname(__file__), "..", "docs", "data", "posters"
+    )
+    print("\nDownloading posters ...")
+    saved_posters = download_posters(result["theaters"], poster_dir)
+    print(f"  -> {len(saved_posters)} 件保存")
+
+    # poster_url をGitHub PagesのURLに書き換え、一時フィールドを削除
+    for movies in result["theaters"].values():
+        for movie in movies:
+            movie_id = movie.pop("movie_id", "")
+            movie.pop("original_poster_url", "")
+            movie["movie_id"] = movie_id
+            movie["poster_url"] = saved_posters.get(movie_id, "")
 
     out_path = os.path.join(
         os.path.dirname(__file__), "..", "docs", "data", "schedules.json"
