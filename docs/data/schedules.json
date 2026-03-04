@@ -1,17 +1,13 @@
 {
-  "updated_at": "2026-03-03T20:28:21",
+  "updated_at": "2026-03-04T05:59:51",
   "theaters": {
     "ユナイテッド・シネマ大津": [
       {
         "title": "映画ドラえもん 新・のび太の海底鬼岩城",
-        "movie_id": "90945",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90945_206947dedbd7b24faef685641aa5c3d9be7fcc.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "8:45",
-              "11:10",
               "16:10",
               "18:30"
             ]
@@ -25,18 +21,16 @@
               "18:30"
             ]
           }
-        ]
+        ],
+        "movie_id": "90945",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90945.jpg"
       },
       {
         "title": "劇場版 転生したらスライムだった件 蒼海の涙編",
-        "movie_id": "87487",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv87487_2053512d472c99bb4986c91bfa17563e1c62f5.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "8:30",
-              "14:40",
               "17:00",
               "19:30"
             ]
@@ -50,19 +44,16 @@
               "19:30"
             ]
           }
-        ]
+        ],
+        "movie_id": "87487",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/87487.jpg"
       },
       {
         "title": "木挽町のあだ討ち",
-        "movie_id": "91037",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91037_209026bd1c3d57342b3790bd6ad9304db8138a.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "8:15",
-              "10:50",
-              "13:30",
               "19:30"
             ]
           },
@@ -75,18 +66,16 @@
               "19:30"
             ]
           }
-        ]
+        ],
+        "movie_id": "91037",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91037.jpg"
       },
       {
         "title": "レンタル・ファミリー",
-        "movie_id": "85851",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85851_214008f3769c1466222b64a0c749acb43294f6.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "8:15",
-              "13:30",
               "16:00",
               "21:20"
             ]
@@ -100,17 +89,16 @@
               "21:20"
             ]
           }
-        ]
+        ],
+        "movie_id": "85851",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/85851.jpg"
       },
       {
         "title": "ENHYPEN [WALK THE LINE SUMMER EDITION] IN CINEMAS",
-        "movie_id": "92001",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv92001_212859175d6e72cdc257124d5340b83968652b.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "11:40",
               "18:40"
             ]
           },
@@ -121,18 +109,16 @@
               "18:40"
             ]
           }
-        ]
+        ],
+        "movie_id": "92001",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/92001.jpg"
       },
       {
         "title": "映画「教場 Requiem」",
-        "movie_id": "89955",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89955_21384306c63d6b9c936ee71ea34569c9647c7f.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "8:30",
-              "14:30",
               "17:40",
               "21:00"
             ]
@@ -146,12 +132,12 @@
               "21:00"
             ]
           }
-        ]
+        ],
+        "movie_id": "89955",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89955.jpg"
       },
       {
         "title": "新劇場版 銀魂 -吉原大炎上-",
-        "movie_id": "90750",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90750_2140904babb4d516f0e71dc3ca0379731e0afe.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -165,39 +151,26 @@
               "16:00"
             ]
           }
-        ]
+        ],
+        "movie_id": "90750",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90750.jpg"
       },
       {
         "title": "クライム101",
-        "movie_id": "91447",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91447_2090788f77469ff49ad3dde7551883afe11f7a.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "10:30"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
               "10:30"
             ]
           }
-        ]
+        ],
+        "movie_id": "91447",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91447.jpg"
       },
       {
         "title": "ほどなく、お別れです",
-        "movie_id": "89668",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89668_2061272402286cd062c33824fcc53f39640b8e.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "10:40",
-              "13:20"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
@@ -205,12 +178,12 @@
               "13:20"
             ]
           }
-        ]
+        ],
+        "movie_id": "89668",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89668.jpg"
       },
       {
         "title": "BE:the ONE -START BEYOND DREAMS-",
-        "movie_id": "91343",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91343_210995be61052e618d731de72f0f8dce8e93db.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -224,12 +197,12 @@
               "18:40"
             ]
           }
-        ]
+        ],
+        "movie_id": "91343",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91343.jpg"
       },
       {
         "title": "機動戦士ガンダム 閃光のハサウェイ キルケーの魔女",
-        "movie_id": "88862",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv88862_200949e9afc1ddcf59aaf4146522ca182b1e7f.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -243,12 +216,12 @@
               "20:50"
             ]
           }
-        ]
+        ],
+        "movie_id": "88862",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/88862.jpg"
       },
       {
         "title": "クスノキの番人",
-        "movie_id": "89482",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89482_2074675432ef88cb79a3746e5bdcaa3eb10a5e.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -262,50 +235,38 @@
               "20:50"
             ]
           }
-        ]
+        ],
+        "movie_id": "89482",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89482.jpg"
       },
       {
         "title": "ズートピア２",
-        "movie_id": "81468",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv81468_2104827b77197bab3a5c301156a5ae64078d6d.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "13:40"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
               "13:40"
             ]
           }
-        ]
+        ],
+        "movie_id": "81468",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/81468.jpg"
       },
       {
         "title": "チェンソーマン レゼ篇",
-        "movie_id": "85187",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85187_199894fdd66059229401955cf9296cfe758460.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "8:15"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
               "8:15"
             ]
           }
-        ]
+        ],
+        "movie_id": "85187",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/85187.jpg"
       },
       {
         "title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
-        "movie_id": "86659",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv86659_177110164a4a2395dcedc393b6f8983ca49531.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -319,33 +280,27 @@
               "16:10"
             ]
           }
-        ]
+        ],
+        "movie_id": "86659",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/86659.jpg"
       },
       {
         "title": "国宝",
-        "movie_id": "85699",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85699_184009e24fa1c919a4dd4ed426f56f6f19dbd0.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "11:00"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
               "11:00"
             ]
           }
-        ]
+        ],
+        "movie_id": "85699",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/85699.jpg"
       }
     ],
     "イオンシネマ草津": [
       {
         "title": "ONE PIECE: INTO THE GRAND LINE - FAN EVENT",
-        "movie_id": "",
-        "poster_url": "/assets/images/icon-question.svg",
         "schedule": [
           {
             "date": "2026-03-10",
@@ -353,12 +308,12 @@
               "16:30"
             ]
           }
-        ]
+        ],
+        "movie_id": "",
+        "poster_url": ""
       },
       {
         "title": "東和薬品 presents 羽生結弦 notte stellata 2026",
-        "movie_id": "",
-        "poster_url": "/assets/images/icon-angle-right.svg",
         "schedule": [
           {
             "date": "2026-03-07",
@@ -372,12 +327,12 @@
               "16:00"
             ]
           }
-        ]
+        ],
+        "movie_id": "",
+        "poster_url": ""
       },
       {
         "title": "ウィキッド 永遠の約束",
-        "movie_id": "89802",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89802_206357326b2152ab19b401be84d5e7a7df4f36.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-06",
@@ -414,12 +369,12 @@
               "20:10"
             ]
           }
-        ]
+        ],
+        "movie_id": "89802",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89802.jpg"
       },
       {
         "title": "スペシャルズ",
-        "movie_id": "90359",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90359_20628592d2ec0da29bfa1c7b890af6f2dd5e4e.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-06",
@@ -466,12 +421,12 @@
               "20:45"
             ]
           }
-        ]
+        ],
+        "movie_id": "90359",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90359.jpg"
       },
       {
         "title": "ガールズ＆パンツァー もっとらぶらぶ作戦です！ 第3幕",
-        "movie_id": "89966",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89966_213170b421e6a1df0facef199bf043e2d61606.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-06",
@@ -512,12 +467,12 @@
               "19:00"
             ]
           }
-        ]
+        ],
+        "movie_id": "89966",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89966.jpg"
       },
       {
         "title": "アイカツ！ 10th STORY ～未来へのSTARWAY～(2023)",
-        "movie_id": "78033",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv78033_112263599362f834fac8ab0c0813fac3246524.png?h=240",
         "schedule": [
           {
             "date": "2026-03-06",
@@ -549,12 +504,12 @@
               "9:10"
             ]
           }
-        ]
+        ],
+        "movie_id": "78033",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/78033.jpg"
       },
       {
         "title": "韓国ミュージカル ON SCREEN 『モーツァルト！』",
-        "movie_id": "89140",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89140_1818547e314870241a0f21c91e19a4be02b7b2.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-06",
@@ -586,12 +541,12 @@
               "13:55"
             ]
           }
-        ]
+        ],
+        "movie_id": "89140",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89140.jpg"
       },
       {
         "title": "コードギアス 亡国のアキト 第2章 引き裂かれし翼竜",
-        "movie_id": "51430",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv51430_90753ce753b53dff936b2306610c4456220de.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-05",
@@ -599,19 +554,16 @@
               "19:35"
             ]
           }
-        ]
+        ],
+        "movie_id": "51430",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/51430.jpg"
       },
       {
         "title": "映画ドラえもん 新・のび太の海底鬼岩城",
-        "movie_id": "90945",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90945_206947dedbd7b24faef685641aa5c3d9be7fcc.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "9:15",
-              "11:35",
-              "13:55",
               "16:15",
               "18:35",
               "20:55"
@@ -679,19 +631,16 @@
               "18:15"
             ]
           }
-        ]
+        ],
+        "movie_id": "90945",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90945.jpg"
       },
       {
         "title": "劇場版 転生したらスライムだった件 蒼海の涙編",
-        "movie_id": "87487",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv87487_2053512d472c99bb4986c91bfa17563e1c62f5.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "9:25",
-              "11:45",
-              "14:05",
               "16:35",
               "18:45",
               "20:55"
@@ -753,19 +702,16 @@
               "20:55"
             ]
           }
-        ]
+        ],
+        "movie_id": "87487",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/87487.jpg"
       },
       {
         "title": "木挽町のあだ討ち",
-        "movie_id": "91037",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91037_209026bd1c3d57342b3790bd6ad9304db8138a.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "9:30",
-              "12:00",
-              "14:30",
               "17:00",
               "21:40"
             ]
@@ -818,18 +764,16 @@
               "14:30"
             ]
           }
-        ]
+        ],
+        "movie_id": "91037",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91037.jpg"
       },
       {
         "title": "レンタル・ファミリー",
-        "movie_id": "85851",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85851_214008f3769c1466222b64a0c749acb43294f6.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "9:15",
-              "14:05",
               "16:35",
               "21:25"
             ]
@@ -878,17 +822,16 @@
               "20:50"
             ]
           }
-        ]
+        ],
+        "movie_id": "85851",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/85851.jpg"
       },
       {
         "title": "#拡散",
-        "movie_id": "91359",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91359_210634145c9546390d6b51db25bb2f72af90bf.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "11:45",
               "19:05"
             ]
           },
@@ -929,18 +872,16 @@
               "15:55"
             ]
           }
-        ]
+        ],
+        "movie_id": "91359",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91359.jpg"
       },
       {
         "title": "映画「教場 Requiem」",
-        "movie_id": "89955",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89955_21384306c63d6b9c936ee71ea34569c9647c7f.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "9:30",
-              "12:35",
               "15:40",
               "18:05",
               "21:05"
@@ -996,17 +937,16 @@
               "13:45"
             ]
           }
-        ]
+        ],
+        "movie_id": "89955",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89955.jpg"
       },
       {
         "title": "夜勤事件",
-        "movie_id": "91090",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91090_208135b76135b3d00a90fc5c7723c63e3630e3.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "14:55",
               "19:25"
             ]
           },
@@ -1048,19 +988,13 @@
               "19:05"
             ]
           }
-        ]
+        ],
+        "movie_id": "91090",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91090.jpg"
       },
       {
         "title": "おさるのベン",
-        "movie_id": "91369",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91369_2060540c68605a392cb3e1fc38bbbeb861228a.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "9:10"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
@@ -1085,12 +1019,12 @@
               "21:00"
             ]
           }
-        ]
+        ],
+        "movie_id": "91369",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91369.jpg"
       },
       {
         "title": "東方神起 20th Anniversary Film『IDENTITY』",
-        "movie_id": "91813",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91813_20905644bdff7f4d42556fc9317952e176d7d9.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -1134,12 +1068,12 @@
               "18:10"
             ]
           }
-        ]
+        ],
+        "movie_id": "91813",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91813.jpg"
       },
       {
         "title": "ヤマトよ永遠に REBEL3199 第五章 白熱の銀河大戦",
-        "movie_id": "84421",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv84421_210288a34412e2a03a50f62900107f754e250f.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -1183,17 +1117,16 @@
               "12:00"
             ]
           }
-        ]
+        ],
+        "movie_id": "84421",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/84421.jpg"
       },
       {
         "title": "新劇場版 銀魂 -吉原大炎上-",
-        "movie_id": "90750",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90750_2140904babb4d516f0e71dc3ca0379731e0afe.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "9:40",
               "16:50",
               "21:20"
             ]
@@ -1241,12 +1174,12 @@
               "18:20"
             ]
           }
-        ]
+        ],
+        "movie_id": "90750",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90750.jpg"
       },
       {
         "title": "クライム101",
-        "movie_id": "91447",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91447_2090788f77469ff49ad3dde7551883afe11f7a.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -1272,19 +1205,13 @@
               "21:20"
             ]
           }
-        ]
+        ],
+        "movie_id": "91447",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91447.jpg"
       },
       {
         "title": "ブゴニア",
-        "movie_id": "91502",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91502_208117b8528e6f6f91a38255f4df4adb51583d.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "14:10"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
@@ -1303,12 +1230,12 @@
               "21:30"
             ]
           }
-        ]
+        ],
+        "movie_id": "91502",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91502.jpg"
       },
       {
         "title": "劇場版「僕の心のヤバイやつ」",
-        "movie_id": "87510",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv87510_207084958ff6b6781e1cc9360eb6522fb5ef89.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -1340,17 +1267,16 @@
               "16:10"
             ]
           }
-        ]
+        ],
+        "movie_id": "87510",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/87510.jpg"
       },
       {
         "title": "ほどなく、お別れです",
-        "movie_id": "89668",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89668_2061272402286cd062c33824fcc53f39640b8e.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "11:30",
               "16:40",
               "21:35"
             ]
@@ -1399,17 +1325,16 @@
               "14:10"
             ]
           }
-        ]
+        ],
+        "movie_id": "89668",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89668.jpg"
       },
       {
         "title": "銀河特急 ミルキー☆サブウェイ 各駅停車劇場行き",
-        "movie_id": "91897",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91897_208965370514b99d692f2ac165adcd777658ea.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "11:10",
               "19:35"
             ]
           },
@@ -1455,55 +1380,42 @@
               "19:00"
             ]
           }
-        ]
+        ],
+        "movie_id": "91897",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91897.jpg"
       },
       {
         "title": "テレビショッピングの女王　青池春香の事件チャンネル",
-        "movie_id": "92004",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv92004_209514c4da27a83f9ee8ea66c22fd17a70d08d.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "9:10"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
               "9:10"
             ]
           }
-        ]
+        ],
+        "movie_id": "92004",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/92004.jpg"
       },
       {
         "title": "FUKUYAMA MASAHARU LIVE FILM@NAGASAKI　月光 ずっとこの光につながっていたんだ",
-        "movie_id": "91372",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91372_209171e242c3a41c85b3c4fe4472a8f8e7660d.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "9:25"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
               "9:25"
             ]
           }
-        ]
+        ],
+        "movie_id": "91372",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91372.jpg"
       },
       {
         "title": "機動戦士ガンダム 閃光のハサウェイ キルケーの魔女",
-        "movie_id": "88862",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv88862_200949e9afc1ddcf59aaf4146522ca182b1e7f.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "11:55",
               "21:45"
             ]
           },
@@ -1544,19 +1456,13 @@
               "20:35"
             ]
           }
-        ]
+        ],
+        "movie_id": "88862",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/88862.jpg"
       },
       {
         "title": "クスノキの番人",
-        "movie_id": "89482",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89482_2074675432ef88cb79a3746e5bdcaa3eb10a5e.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "12:25"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
@@ -1581,19 +1487,13 @@
               "20:05"
             ]
           }
-        ]
+        ],
+        "movie_id": "89482",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89482.jpg"
       },
       {
         "title": "ズートピア２",
-        "movie_id": "81468",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv81468_2104827b77197bab3a5c301156a5ae64078d6d.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "14:15"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
@@ -1632,12 +1532,12 @@
               "9:10"
             ]
           }
-        ]
+        ],
+        "movie_id": "81468",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/81468.jpg"
       },
       {
         "title": "チェンソーマン レゼ篇",
-        "movie_id": "85187",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85187_199894fdd66059229401955cf9296cfe758460.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -1663,12 +1563,12 @@
               "19:30"
             ]
           }
-        ]
+        ],
+        "movie_id": "85187",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/85187.jpg"
       },
       {
         "title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
-        "movie_id": "86659",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv86659_177110164a4a2395dcedc393b6f8983ca49531.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -1712,19 +1612,13 @@
               "20:00"
             ]
           }
-        ]
+        ],
+        "movie_id": "86659",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/86659.jpg"
       },
       {
         "title": "国宝",
-        "movie_id": "85699",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85699_184009e24fa1c919a4dd4ed426f56f6f19dbd0.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "12:25"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
@@ -1761,14 +1655,14 @@
               "10:55"
             ]
           }
-        ]
+        ],
+        "movie_id": "85699",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/85699.jpg"
       }
     ],
     "イオンシネマ近江八幡": [
       {
         "title": "舞台『刀剣乱舞』禺伝 矛盾源氏物語～再演～ ライブビューイング",
-        "movie_id": "",
-        "poster_url": "/assets/images/icon-angle-right.svg",
         "schedule": [
           {
             "date": "2026-03-08",
@@ -1776,12 +1670,12 @@
               "18:00"
             ]
           }
-        ]
+        ],
+        "movie_id": "",
+        "poster_url": ""
       },
       {
         "title": "ウィキッド 永遠の約束",
-        "movie_id": "89802",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89802_206357326b2152ab19b401be84d5e7a7df4f36.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-06",
@@ -1823,12 +1717,12 @@
               "18:25"
             ]
           }
-        ]
+        ],
+        "movie_id": "89802",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89802.jpg"
       },
       {
         "title": "スペシャルズ",
-        "movie_id": "90359",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90359_20628592d2ec0da29bfa1c7b890af6f2dd5e4e.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-06",
@@ -1875,12 +1769,12 @@
               "21:45"
             ]
           }
-        ]
+        ],
+        "movie_id": "90359",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90359.jpg"
       },
       {
         "title": "映画 冬のソナタ 日本特別版",
-        "movie_id": "92020",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv92020_209543904e2e153d467e0d6cf660381f55a062.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-06",
@@ -1917,19 +1811,16 @@
               "18:30"
             ]
           }
-        ]
+        ],
+        "movie_id": "92020",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/92020.jpg"
       },
       {
         "title": "映画ドラえもん 新・のび太の海底鬼岩城",
-        "movie_id": "90945",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90945_206947dedbd7b24faef685641aa5c3d9be7fcc.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "9:25",
-              "11:40",
-              "14:00",
               "16:20",
               "18:40",
               "20:55"
@@ -1993,19 +1884,16 @@
               "16:40"
             ]
           }
-        ]
+        ],
+        "movie_id": "90945",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90945.jpg"
       },
       {
         "title": "劇場版 転生したらスライムだった件 蒼海の涙編",
-        "movie_id": "87487",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv87487_2053512d472c99bb4986c91bfa17563e1c62f5.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "9:45",
-              "12:05",
-              "14:25",
               "16:45",
               "19:05",
               "21:30"
@@ -2067,19 +1955,16 @@
               "21:35"
             ]
           }
-        ]
+        ],
+        "movie_id": "87487",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/87487.jpg"
       },
       {
         "title": "木挽町のあだ討ち",
-        "movie_id": "91037",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91037_209026bd1c3d57342b3790bd6ad9304db8138a.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "9:20",
-              "11:55",
-              "14:30",
               "17:05",
               "21:40"
             ]
@@ -2134,18 +2019,16 @@
               "17:25"
             ]
           }
-        ]
+        ],
+        "movie_id": "91037",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91037.jpg"
       },
       {
         "title": "レンタル・ファミリー",
-        "movie_id": "85851",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85851_214008f3769c1466222b64a0c749acb43294f6.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "9:25",
-              "11:50",
               "16:40",
               "21:50"
             ]
@@ -2194,18 +2077,16 @@
               "19:20"
             ]
           }
-        ]
+        ],
+        "movie_id": "85851",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/85851.jpg"
       },
       {
         "title": "映画「教場 Requiem」",
-        "movie_id": "89955",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89955_21384306c63d6b9c936ee71ea34569c9647c7f.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "9:35",
-              "12:40",
               "15:45",
               "18:15",
               "21:10"
@@ -2262,12 +2143,12 @@
               "20:00"
             ]
           }
-        ]
+        ],
+        "movie_id": "89955",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89955.jpg"
       },
       {
         "title": "夜勤事件",
-        "movie_id": "91090",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91090_208135b76135b3d00a90fc5c7723c63e3630e3.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -2313,12 +2194,12 @@
               "14:45"
             ]
           }
-        ]
+        ],
+        "movie_id": "91090",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91090.jpg"
       },
       {
         "title": "おさるのベン",
-        "movie_id": "91369",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91369_2060540c68605a392cb3e1fc38bbbeb861228a.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -2362,12 +2243,12 @@
               "21:45"
             ]
           }
-        ]
+        ],
+        "movie_id": "91369",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91369.jpg"
       },
       {
         "title": "センチメンタル・バリュー",
-        "movie_id": "91501",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91501_208186576b9d61ab48fb9bcdda5caed0955a6b.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -2411,17 +2292,16 @@
               "21:20"
             ]
           }
-        ]
+        ],
+        "movie_id": "91501",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91501.jpg"
       },
       {
         "title": "新劇場版 銀魂 -吉原大炎上-",
-        "movie_id": "90750",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90750_2140904babb4d516f0e71dc3ca0379731e0afe.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "11:50",
               "19:10"
             ]
           },
@@ -2462,12 +2342,12 @@
               "18:15"
             ]
           }
-        ]
+        ],
+        "movie_id": "90750",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90750.jpg"
       },
       {
         "title": "クライム101",
-        "movie_id": "91447",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91447_2090788f77469ff49ad3dde7551883afe11f7a.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -2493,12 +2373,12 @@
               "9:25"
             ]
           }
-        ]
+        ],
+        "movie_id": "91447",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91447.jpg"
       },
       {
         "title": "純愛上等！",
-        "movie_id": "89601",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89601_19492219510f8f812e0336b369a39a0e1a9f1a.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -2542,18 +2422,16 @@
               "19:05"
             ]
           }
-        ]
+        ],
+        "movie_id": "89601",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89601.jpg"
       },
       {
         "title": "ほどなく、お別れです",
-        "movie_id": "89668",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89668_2061272402286cd062c33824fcc53f39640b8e.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "9:30",
-              "12:10",
               "16:50",
               "21:30"
             ]
@@ -2606,36 +2484,29 @@
               "21:15"
             ]
           }
-        ]
+        ],
+        "movie_id": "89668",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89668.jpg"
       },
       {
         "title": "テレビショッピングの女王　青池春香の事件チャンネル",
-        "movie_id": "92004",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv92004_209514c4da27a83f9ee8ea66c22fd17a70d08d.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "9:15"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
               "9:15"
             ]
           }
-        ]
+        ],
+        "movie_id": "92004",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/92004.jpg"
       },
       {
         "title": "機動戦士ガンダム 閃光のハサウェイ キルケーの魔女",
-        "movie_id": "88862",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv88862_200949e9afc1ddcf59aaf4146522ca182b1e7f.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "14:30",
               "21:50"
             ]
           },
@@ -2676,19 +2547,13 @@
               "19:25"
             ]
           }
-        ]
+        ],
+        "movie_id": "88862",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/88862.jpg"
       },
       {
         "title": "クスノキの番人",
-        "movie_id": "89482",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89482_2074675432ef88cb79a3746e5bdcaa3eb10a5e.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "9:20"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
@@ -2713,19 +2578,13 @@
               "19:05"
             ]
           }
-        ]
+        ],
+        "movie_id": "89482",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89482.jpg"
       },
       {
         "title": "ズートピア２",
-        "movie_id": "81468",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv81468_2104827b77197bab3a5c301156a5ae64078d6d.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "14:15"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
@@ -2762,12 +2621,12 @@
               "12:20"
             ]
           }
-        ]
+        ],
+        "movie_id": "81468",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/81468.jpg"
       },
       {
         "title": "チェンソーマン レゼ篇",
-        "movie_id": "85187",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85187_199894fdd66059229401955cf9296cfe758460.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -2811,12 +2670,12 @@
               "9:15"
             ]
           }
-        ]
+        ],
+        "movie_id": "85187",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/85187.jpg"
       },
       {
         "title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
-        "movie_id": "86659",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv86659_177110164a4a2395dcedc393b6f8983ca49531.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -2860,19 +2719,13 @@
               "20:55"
             ]
           }
-        ]
+        ],
+        "movie_id": "86659",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/86659.jpg"
       },
       {
         "title": "国宝",
-        "movie_id": "85699",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85699_184009e24fa1c919a4dd4ed426f56f6f19dbd0.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "11:35"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
@@ -2909,21 +2762,60 @@
               "14:45"
             ]
           }
-        ]
+        ],
+        "movie_id": "85699",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/85699.jpg"
       }
     ],
     "水口アレックスシネマ": [
       {
+        "title": "ウィキッド 永遠の約束",
+        "schedule": [
+          {
+            "date": "2026-03-06",
+            "times": [
+              "12:30",
+              "17:50"
+            ]
+          },
+          {
+            "date": "2026-03-07",
+            "times": [
+              "12:30",
+              "17:50"
+            ]
+          },
+          {
+            "date": "2026-03-08",
+            "times": [
+              "12:30",
+              "17:50"
+            ]
+          },
+          {
+            "date": "2026-03-09",
+            "times": [
+              "12:30",
+              "17:50"
+            ]
+          },
+          {
+            "date": "2026-03-10",
+            "times": [
+              "12:30",
+              "17:50"
+            ]
+          }
+        ],
+        "movie_id": "89802",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89802.jpg"
+      },
+      {
         "title": "映画ドラえもん 新・のび太の海底鬼岩城",
-        "movie_id": "90945",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90945_206947dedbd7b24faef685641aa5c3d9be7fcc.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "9:50",
-              "12:00",
-              "14:10",
               "16:20",
               "18:25"
             ]
@@ -2937,20 +2829,67 @@
               "16:20",
               "18:25"
             ]
+          },
+          {
+            "date": "2026-03-06",
+            "times": [
+              "9:30",
+              "11:40",
+              "13:50",
+              "16:00",
+              "19:40"
+            ]
+          },
+          {
+            "date": "2026-03-07",
+            "times": [
+              "9:30",
+              "11:40",
+              "13:50",
+              "16:00",
+              "18:45"
+            ]
+          },
+          {
+            "date": "2026-03-08",
+            "times": [
+              "9:30",
+              "11:40",
+              "13:50",
+              "16:00",
+              "18:45"
+            ]
+          },
+          {
+            "date": "2026-03-09",
+            "times": [
+              "9:30",
+              "11:40",
+              "13:50",
+              "16:00",
+              "18:45"
+            ]
+          },
+          {
+            "date": "2026-03-10",
+            "times": [
+              "9:30",
+              "11:40",
+              "13:50",
+              "16:00",
+              "18:45"
+            ]
           }
-        ]
+        ],
+        "movie_id": "90945",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90945.jpg"
       },
       {
         "title": "映画「教場 Requiem」",
-        "movie_id": "89955",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89955_21384306c63d6b9c936ee71ea34569c9647c7f.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "9:30",
-              "12:10",
-              "14:50",
               "17:30",
               "20:10"
             ]
@@ -2964,18 +2903,62 @@
               "17:30",
               "20:10"
             ]
+          },
+          {
+            "date": "2026-03-06",
+            "times": [
+              "9:40",
+              "12:30",
+              "15:20",
+              "20:20"
+            ]
+          },
+          {
+            "date": "2026-03-07",
+            "times": [
+              "9:40",
+              "12:30",
+              "15:20",
+              "20:20"
+            ]
+          },
+          {
+            "date": "2026-03-08",
+            "times": [
+              "9:40",
+              "12:30",
+              "15:20",
+              "20:20"
+            ]
+          },
+          {
+            "date": "2026-03-09",
+            "times": [
+              "9:40",
+              "12:30",
+              "15:20",
+              "20:20"
+            ]
+          },
+          {
+            "date": "2026-03-10",
+            "times": [
+              "9:40",
+              "12:30",
+              "15:20",
+              "20:20"
+            ]
           }
-        ]
+        ],
+        "movie_id": "89955",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89955.jpg"
       },
       {
         "title": "映画ラストマン -FIRST LOVE-",
-        "movie_id": "89768",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89768_202751a0056c683da8a02194e9a5540ed5d32e.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "9:15",
               "15:10",
               "20:40"
             ]
@@ -2987,18 +2970,52 @@
               "15:10",
               "20:40"
             ]
+          },
+          {
+            "date": "2026-03-06",
+            "times": [
+              "16:15",
+              "21:15"
+            ]
+          },
+          {
+            "date": "2026-03-07",
+            "times": [
+              "16:15",
+              "20:50"
+            ]
+          },
+          {
+            "date": "2026-03-08",
+            "times": [
+              "16:15",
+              "20:50"
+            ]
+          },
+          {
+            "date": "2026-03-09",
+            "times": [
+              "16:15",
+              "20:50"
+            ]
+          },
+          {
+            "date": "2026-03-10",
+            "times": [
+              "16:15",
+              "20:50"
+            ]
           }
-        ]
+        ],
+        "movie_id": "89768",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89768.jpg"
       },
       {
         "title": "新劇場版 銀魂 -吉原大炎上-",
-        "movie_id": "90750",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90750_2140904babb4d516f0e71dc3ca0379731e0afe.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "11:45",
               "16:20",
               "20:20"
             ]
@@ -3010,18 +3027,57 @@
               "16:20",
               "20:20"
             ]
+          },
+          {
+            "date": "2026-03-06",
+            "times": [
+              "9:15",
+              "13:50",
+              "21:10"
+            ]
+          },
+          {
+            "date": "2026-03-07",
+            "times": [
+              "9:15",
+              "13:50",
+              "20:15"
+            ]
+          },
+          {
+            "date": "2026-03-08",
+            "times": [
+              "9:15",
+              "13:50",
+              "20:15"
+            ]
+          },
+          {
+            "date": "2026-03-09",
+            "times": [
+              "9:15",
+              "13:50",
+              "20:15"
+            ]
+          },
+          {
+            "date": "2026-03-10",
+            "times": [
+              "9:15",
+              "13:50",
+              "20:15"
+            ]
           }
-        ]
+        ],
+        "movie_id": "90750",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90750.jpg"
       },
       {
         "title": "ほどなく、お別れです",
-        "movie_id": "89668",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89668_2061272402286cd062c33824fcc53f39640b8e.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "9:40",
               "15:00",
               "20:30"
             ]
@@ -3033,18 +3089,57 @@
               "15:00",
               "20:30"
             ]
+          },
+          {
+            "date": "2026-03-06",
+            "times": [
+              "9:15",
+              "15:05",
+              "21:45"
+            ]
+          },
+          {
+            "date": "2026-03-07",
+            "times": [
+              "9:15",
+              "15:10",
+              "20:40"
+            ]
+          },
+          {
+            "date": "2026-03-08",
+            "times": [
+              "9:15",
+              "15:10",
+              "20:40"
+            ]
+          },
+          {
+            "date": "2026-03-09",
+            "times": [
+              "9:15",
+              "15:10",
+              "20:40"
+            ]
+          },
+          {
+            "date": "2026-03-10",
+            "times": [
+              "9:15",
+              "15:10",
+              "20:40"
+            ]
           }
-        ]
+        ],
+        "movie_id": "89668",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89668.jpg"
       },
       {
         "title": "機動戦士ガンダム 閃光のハサウェイ キルケーの魔女",
-        "movie_id": "88862",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv88862_200949e9afc1ddcf59aaf4146522ca182b1e7f.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "14:10",
               "20:50"
             ]
           },
@@ -3054,37 +3149,60 @@
               "14:10",
               "20:50"
             ]
+          },
+          {
+            "date": "2026-03-06",
+            "times": [
+              "18:10"
+            ]
+          },
+          {
+            "date": "2026-03-07",
+            "times": [
+              "18:10"
+            ]
+          },
+          {
+            "date": "2026-03-08",
+            "times": [
+              "18:10"
+            ]
+          },
+          {
+            "date": "2026-03-09",
+            "times": [
+              "18:10"
+            ]
+          },
+          {
+            "date": "2026-03-10",
+            "times": [
+              "18:10"
+            ]
           }
-        ]
+        ],
+        "movie_id": "88862",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/88862.jpg"
       },
       {
         "title": "HELP/復讐島",
-        "movie_id": "91370",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91370_212432de986f64ade0077a4ce50ba1c89755cc.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "12:30"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
               "12:30"
             ]
           }
-        ]
+        ],
+        "movie_id": "91370",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91370.jpg"
       },
       {
         "title": "ズートピア２",
-        "movie_id": "81468",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv81468_2104827b77197bab3a5c301156a5ae64078d6d.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "13:00",
               "17:50"
             ]
           },
@@ -3094,13 +3212,43 @@
               "13:00",
               "17:50"
             ]
+          },
+          {
+            "date": "2026-03-06",
+            "times": [
+              "11:40"
+            ]
+          },
+          {
+            "date": "2026-03-07",
+            "times": [
+              "11:40"
+            ]
+          },
+          {
+            "date": "2026-03-08",
+            "times": [
+              "11:40"
+            ]
+          },
+          {
+            "date": "2026-03-09",
+            "times": [
+              "11:40"
+            ]
+          },
+          {
+            "date": "2026-03-10",
+            "times": [
+              "11:40"
+            ]
           }
-        ]
+        ],
+        "movie_id": "81468",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/81468.jpg"
       },
       {
         "title": "チェンソーマン レゼ篇",
-        "movie_id": "85187",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85187_199894fdd66059229401955cf9296cfe758460.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -3113,13 +3261,43 @@
             "times": [
               "18:45"
             ]
+          },
+          {
+            "date": "2026-03-06",
+            "times": [
+              "17:35"
+            ]
+          },
+          {
+            "date": "2026-03-07",
+            "times": [
+              "18:10"
+            ]
+          },
+          {
+            "date": "2026-03-08",
+            "times": [
+              "18:10"
+            ]
+          },
+          {
+            "date": "2026-03-09",
+            "times": [
+              "18:10"
+            ]
+          },
+          {
+            "date": "2026-03-10",
+            "times": [
+              "18:10"
+            ]
           }
-        ]
+        ],
+        "movie_id": "85187",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/85187.jpg"
       },
       {
         "title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
-        "movie_id": "86659",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv86659_177110164a4a2395dcedc393b6f8983ca49531.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -3132,34 +3310,88 @@
             "times": [
               "17:40"
             ]
+          },
+          {
+            "date": "2026-03-06",
+            "times": [
+              "18:10"
+            ]
+          },
+          {
+            "date": "2026-03-07",
+            "times": [
+              "17:40"
+            ]
+          },
+          {
+            "date": "2026-03-08",
+            "times": [
+              "17:40"
+            ]
+          },
+          {
+            "date": "2026-03-09",
+            "times": [
+              "17:40"
+            ]
+          },
+          {
+            "date": "2026-03-10",
+            "times": [
+              "17:40"
+            ]
           }
-        ]
+        ],
+        "movie_id": "86659",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/86659.jpg"
       },
       {
         "title": "国宝",
-        "movie_id": "85699",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85699_184009e24fa1c919a4dd4ed426f56f6f19dbd0.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "9:40"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
               "9:40"
             ]
+          },
+          {
+            "date": "2026-03-06",
+            "times": [
+              "11:45"
+            ]
+          },
+          {
+            "date": "2026-03-07",
+            "times": [
+              "11:50"
+            ]
+          },
+          {
+            "date": "2026-03-08",
+            "times": [
+              "11:50"
+            ]
+          },
+          {
+            "date": "2026-03-09",
+            "times": [
+              "11:50"
+            ]
+          },
+          {
+            "date": "2026-03-10",
+            "times": [
+              "11:50"
+            ]
           }
-        ]
+        ],
+        "movie_id": "85699",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/85699.jpg"
       }
     ],
     "彦根ビバシティシネマ": [
       {
         "title": "ウィキッド 永遠の約束",
-        "movie_id": "89802",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89802_206357326b2152ab19b401be84d5e7a7df4f36.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-06",
@@ -3193,18 +3425,16 @@
               "13:30"
             ]
           }
-        ]
+        ],
+        "movie_id": "89802",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89802.jpg"
       },
       {
         "title": "映画ドラえもん 新・のび太の海底鬼岩城",
-        "movie_id": "90945",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90945_206947dedbd7b24faef685641aa5c3d9be7fcc.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "12:45",
-              "14:50",
               "16:55",
               "19:40"
             ]
@@ -3263,18 +3493,16 @@
               "19:45"
             ]
           }
-        ]
+        ],
+        "movie_id": "90945",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90945.jpg"
       },
       {
         "title": "木挽町のあだ討ち",
-        "movie_id": "91037",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv91037_209026bd1c3d57342b3790bd6ad9304db8138a.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "10:25",
-              "12:55",
               "17:20",
               "21:45"
             ]
@@ -3333,18 +3561,16 @@
               "21:50"
             ]
           }
-        ]
+        ],
+        "movie_id": "91037",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91037.jpg"
       },
       {
         "title": "映画「教場 Requiem」",
-        "movie_id": "89955",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89955_21384306c63d6b9c936ee71ea34569c9647c7f.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "10:40",
-              "13:30",
               "18:45",
               "20:55"
             ]
@@ -3403,12 +3629,12 @@
               "21:00"
             ]
           }
-        ]
+        ],
+        "movie_id": "89955",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89955.jpg"
       },
       {
         "title": "新劇場版 銀魂 -吉原大炎上-",
-        "movie_id": "90750",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv90750_2140904babb4d516f0e71dc3ca0379731e0afe.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -3456,18 +3682,16 @@
               "19:35"
             ]
           }
-        ]
+        ],
+        "movie_id": "90750",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90750.jpg"
       },
       {
         "title": "ほどなく、お別れです",
-        "movie_id": "89668",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv89668_2061272402286cd062c33824fcc53f39640b8e.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
             "times": [
-              "10:30",
-              "14:00",
               "18:30",
               "21:35"
             ]
@@ -3516,12 +3740,12 @@
               "19:05"
             ]
           }
-        ]
+        ],
+        "movie_id": "89668",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89668.jpg"
       },
       {
         "title": "機動戦士ガンダム 閃光のハサウェイ キルケーの魔女",
-        "movie_id": "88862",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv88862_200949e9afc1ddcf59aaf4146522ca182b1e7f.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -3565,12 +3789,12 @@
               "21:55"
             ]
           }
-        ]
+        ],
+        "movie_id": "88862",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/88862.jpg"
       },
       {
         "title": "ズートピア２",
-        "movie_id": "81468",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv81468_2104827b77197bab3a5c301156a5ae64078d6d.jpg?h=240",
         "schedule": [
           {
             "date": "2026-03-04",
@@ -3614,19 +3838,13 @@
               "16:05"
             ]
           }
-        ]
+        ],
+        "movie_id": "81468",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/81468.jpg"
       },
       {
         "title": "国宝",
-        "movie_id": "85699",
-        "poster_url": "https://press.moviewalker.jp/api/resizeimage/flyer/poster/mv85699_184009e24fa1c919a4dd4ed426f56f6f19dbd0.jpg?h=240",
         "schedule": [
-          {
-            "date": "2026-03-04",
-            "times": [
-              "10:45"
-            ]
-          },
           {
             "date": "2026-03-05",
             "times": [
@@ -3663,7 +3881,9 @@
               "13:15"
             ]
           }
-        ]
+        ],
+        "movie_id": "85699",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/85699.jpg"
       }
     ]
   }
