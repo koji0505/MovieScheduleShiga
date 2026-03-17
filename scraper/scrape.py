@@ -58,10 +58,14 @@ def normalize_title(title: str) -> str:
 def base_title(title: str) -> str:
     """吹替・字幕などのバリアントサフィックスを除き、スペースを正規化した基本タイトルを返す"""
     t = unicodedata.normalize("NFKC", title)
-    t = VARIANT_RE.sub("", t)
+    # 複数のサフィックスが重なる場合（例: 4DX2D（吹替））に対応するためループで除去
+    prev = None
+    while prev != t:
+        prev = t
+        t = VARIANT_RE.sub("", t).strip()
     # 全角・半角スペースをすべて除去して比較
     t = re.sub(r'[\s　]+', '', t)
-    return t.strip()
+    return t
 
 
 def parse_date_str(date_str: str, today: datetime) -> str:
