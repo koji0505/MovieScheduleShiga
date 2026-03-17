@@ -41,7 +41,12 @@ ALEX_MOVIE_URL    = "https://schedule.alex-cinemas.com/schedule/data/{movie_id}/
 DIRECT_SCRAPE_DAYS = 10
 
 
-VARIANT_RE = re.compile(r'[\s　]*[（(][^）)]*(?:吹替|字幕)[^）)]*[）)]')
+VARIANT_RE = re.compile(
+    r'(?:'
+    r'^\s*[\[［【][^\]］】]*(?:吹替|字幕)[^\]］】]*[\]］】]\s*'  # 先頭: [吹替] [字幕] 等
+    r'|[\s　]*[（(][^）)]*(?:吹替|字幕)[^）)]*[）)]\s*$'          # 末尾: （吹替）（字幕）等
+    r')'
+)
 
 def normalize_title(title: str) -> str:
     """タイトルを比較用に正規化（NFKC: 半角カナ→全角カナ等）"""
@@ -49,8 +54,12 @@ def normalize_title(title: str) -> str:
 
 
 def base_title(title: str) -> str:
-    """吹替・字幕などのバリアントサフィックスを除いた基本タイトルを返す"""
-    return VARIANT_RE.sub("", unicodedata.normalize("NFKC", title)).strip()
+    """吹替・字幕などのバリアントサフィックスを除き、スペースを正規化した基本タイトルを返す"""
+    t = unicodedata.normalize("NFKC", title)
+    t = VARIANT_RE.sub("", t)
+    # 全角・半角スペースをすべて除去して比較
+    t = re.sub(r'[\s　]+', '', t)
+    return t.strip()
 
 
 def parse_date_str(date_str: str, today: datetime) -> str:
