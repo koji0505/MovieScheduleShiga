@@ -177,7 +177,7 @@ function render(query) {
 }
 
 async function loadData() {
-  const resp = await fetch('data/schedules.json');
+  const resp = await fetch('data/schedules.json?v=' + Date.now());
   const data = await resp.json();
   movieData = data;
   movieIndex = buildMovieIndex(data);
