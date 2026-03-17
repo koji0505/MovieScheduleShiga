@@ -195,65 +195,79 @@ def scrape_aeon(theater_name: str, slug: str, today: datetime) -> list:
     return result
 
 
+def _parse_united_html(soup: BeautifulSoup, iso_date: str, movies_by_title: dict) -> bool:
+    """ユナイテッドシネマの1日分HTMLをパース。映画があればTrueを返す。"""
+    daily_list = soup.find("ul", id="dailyList")
+    if not daily_list:
+        return False
+    movie_items = daily_list.find_all("li", recursive=False)
+    if not movie_items:
+        return False
+
+    found = False
+    for li in movie_items:
+        title_span = li.find("span", class_="movieTitle")
+        if not title_span:
+            continue
+        title_a = title_span.find("a")
+        if not title_a:
+            continue
+        title = title_a.get_text(strip=True)
+
+        film_id = ""
+        m = re.search(r"film=(\d+)", title_a.get("href", ""))
+        if m:
+            film_id = f"uc_{m.group(1)}"
+
+        times = [t.get_text(strip=True) for t in li.find_all("li", class_="startTime")]
+        if not times:
+            continue
+
+        found = True
+        if title not in movies_by_title:
+            movies_by_title[title] = {
+                "title": title,
+                "movie_id": film_id,
+                "original_poster_url": "",
+                "schedule": {},
+            }
+        sched = movies_by_title[title]["schedule"]
+        if iso_date not in sched:
+            sched[iso_date] = times
+        else:
+            sched[iso_date] = sorted(set(sched[iso_date]) | set(times))
+    return found
+
+
 def scrape_united(today: datetime) -> list:
-    """ユナイテッドシネマ大津の直接スクレイピング（最大DIRECT_SCRAPE_DAYS日分）"""
+    """ユナイテッドシネマ大津の直接スクレイピング（Playwright使用、最大DIRECT_SCRAPE_DAYS日分）"""
+    from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+
     movies_by_title: dict = {}
 
-    for delta in range(DIRECT_SCRAPE_DAYS):
-        date = today + timedelta(days=delta)
-        date_str = date.strftime("%Y-%m-%d")
-        iso_date = date_str
-        url = UNITED_BASE_URL.format(date=date_str)
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        pw_page = browser.new_page()
 
-        try:
-            resp = requests.get(url, headers=HEADERS, timeout=15)
-            resp.raise_for_status()
-        except requests.RequestException as e:
-            print(f"  United {date_str}: Error {e}")
-            break
+        for delta in range(DIRECT_SCRAPE_DAYS):
+            date = today + timedelta(days=delta)
+            date_str = date.strftime("%Y-%m-%d")
+            iso_date = date_str
+            url = UNITED_BASE_URL.format(date=date_str)
 
-        # resp.content を使い BeautifulSoup に文字コード検出を任せる（Shift-JIS対応）
-        soup = BeautifulSoup(resp.content, "html.parser")
-        daily_list = soup.find("ul", id="dailyList")
-        if not daily_list:
-            print(f"  United {date_str}: no dailyList, stopping")
-            break
+            try:
+                pw_page.goto(url, timeout=30000)
+                pw_page.wait_for_selector("#dailyList li", timeout=15000)
+            except Exception as e:
+                print(f"  United {date_str}: no movies or error: {e}")
+                break
 
-        movie_items = daily_list.find_all("li", recursive=False)
-        if not movie_items:
-            print(f"  United {date_str}: no movies, stopping")
-            break
+            soup = BeautifulSoup(pw_page.content(), "html.parser")
+            if not _parse_united_html(soup, iso_date, movies_by_title):
+                print(f"  United {date_str}: no movies, stopping")
+                break
 
-        for li in movie_items:
-            title_span = li.find("span", class_="movieTitle")
-            if not title_span:
-                continue
-            title_a = title_span.find("a")
-            if not title_a:
-                continue
-            title = title_a.get_text(strip=True)
-
-            film_id = ""
-            m = re.search(r"film=(\d+)", title_a.get("href", ""))
-            if m:
-                film_id = f"uc_{m.group(1)}"
-
-            times = [t.get_text(strip=True) for t in li.find_all("li", class_="startTime")]
-            if not times:
-                continue
-
-            if title not in movies_by_title:
-                movies_by_title[title] = {
-                    "title": title,
-                    "movie_id": film_id,
-                    "original_poster_url": "",
-                    "schedule": {},
-                }
-            sched = movies_by_title[title]["schedule"]
-            if iso_date not in sched:
-                sched[iso_date] = times
-            else:
-                sched[iso_date] = sorted(set(sched[iso_date]) | set(times))
+        browser.close()
 
     result = []
     for movie in movies_by_title.values():
