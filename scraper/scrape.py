@@ -41,9 +41,16 @@ ALEX_MOVIE_URL    = "https://schedule.alex-cinemas.com/schedule/data/{movie_id}/
 DIRECT_SCRAPE_DAYS = 10
 
 
+VARIANT_RE = re.compile(r'[\s　]*[（(][^）)]*(?:吹替|字幕)[^）)]*[）)]')
+
 def normalize_title(title: str) -> str:
     """タイトルを比較用に正規化（NFKC: 半角カナ→全角カナ等）"""
     return unicodedata.normalize("NFKC", title).strip()
+
+
+def base_title(title: str) -> str:
+    """吹替・字幕などのバリアントサフィックスを除いた基本タイトルを返す"""
+    return VARIANT_RE.sub("", unicodedata.normalize("NFKC", title)).strip()
 
 
 def parse_date_str(date_str: str, today: datetime) -> str:
@@ -372,24 +379,51 @@ def download_posters(theaters: dict, poster_dir: str) -> dict:
     os.makedirs(poster_dir)
 
     # 全館から movie_id -> original_poster_url を収集（重複排除）
-    poster_map = {}
+    # base_title -> (movie_id, url) も収集（吹替/字幕バリアント間でポスター共有用）
+    poster_map: dict = {}        # movie_id -> url
+    base_to_movie: dict = {}     # base_title -> movie_id（ポスターあり）
+    movie_to_base: dict = {}     # movie_id -> base_title
+
     for movies in theaters.values():
         for movie in movies:
             movie_id = movie.get("movie_id")
             url = movie.get("original_poster_url", "")
-            if movie_id and url and movie_id not in poster_map:
+            title = movie.get("title", "")
+            if not movie_id:
+                continue
+            bt = base_title(title)
+            movie_to_base[movie_id] = bt
+            if url and movie_id not in poster_map:
                 poster_map[movie_id] = url
+                if bt and bt not in base_to_movie:
+                    base_to_movie[bt] = movie_id
 
-    # ダウンロード
+    # ポスターURLがない映画を同じ base_title の別バリアントで補完
+    for movies in theaters.values():
+        for movie in movies:
+            movie_id = movie.get("movie_id")
+            if not movie_id or movie_id in poster_map:
+                continue
+            bt = movie_to_base.get(movie_id, "")
+            if bt and bt in base_to_movie:
+                poster_map[movie_id] = poster_map[base_to_movie[bt]]
+
+    # ダウンロード（同じURLは1回だけ取得して共有）
+    url_to_local: dict = {}  # url -> local URL
     saved = {}
     for movie_id, url in poster_map.items():
+        if url in url_to_local:
+            saved[movie_id] = url_to_local[url]
+            continue
         try:
             resp = requests.get(url, headers=HEADERS, timeout=10)
             resp.raise_for_status()
             path = os.path.join(poster_dir, f"{movie_id}.jpg")
             with open(path, "wb") as f:
                 f.write(resp.content)
-            saved[movie_id] = f"{POSTER_BASE_URL}{movie_id}.jpg"
+            local_url = f"{POSTER_BASE_URL}{movie_id}.jpg"
+            saved[movie_id] = local_url
+            url_to_local[url] = local_url
             print(f"  Poster saved: {movie_id}.jpg")
         except Exception as e:
             print(f"  Poster failed ({movie_id}): {e}")
