@@ -32,9 +32,12 @@ AEON_THEATERS = {
     "イオンシネマ草津":     "kusatsu",
 }
 UNITED_THEATER_NAME = "ユナイテッド・シネマ大津"
-AEON_API_URL = "https://theater.aeoncinema.com/schedule/v2/data/{slug}/schedule.json"
-AEON_POSTER_URL = "https://www.aeoncinema.com/movie_images/{movie_id}/poster400x560.jpg"
-UNITED_BASE_URL = "https://www.unitedcinemas.jp/otsu/daily.php?date={date}"
+ALEX_THEATER_NAME  = "水口アレックスシネマ"
+AEON_API_URL      = "https://theater.aeoncinema.com/schedule/v2/data/{slug}/schedule.json"
+AEON_POSTER_URL   = "https://www.aeoncinema.com/movie_images/{movie_id}/poster400x560.jpg"
+UNITED_BASE_URL   = "https://www.unitedcinemas.jp/otsu/daily.php?date={date}"
+ALEX_SCHEDULE_URL = "https://schedule.alex-cinemas.com/schedule/data/schedule.json"
+ALEX_MOVIE_URL    = "https://schedule.alex-cinemas.com/schedule/data/{movie_id}/001/{date}.json"
 DIRECT_SCRAPE_DAYS = 10
 
 
@@ -282,6 +285,64 @@ def scrape_united(today: datetime) -> list:
     return result
 
 
+def scrape_alex(theater_name: str, today: datetime) -> list:
+    """アレックスシネマのスクレイピング（JSON API使用）"""
+    target_dates = {(today + timedelta(days=d)).strftime("%Y%m%d") for d in range(DIRECT_SCRAPE_DAYS)}
+
+    try:
+        resp = requests.get(ALEX_SCHEDULE_URL, headers=HEADERS, timeout=15)
+        resp.raise_for_status()
+        schedule_data = resp.json()
+    except Exception as e:
+        print(f"  Alex {theater_name}: schedule.json error {e}")
+        return []
+
+    result = []
+    for movie_id, theaters in schedule_data.items():
+        if "001" not in theaters:
+            continue
+        dates_in_range = {d: times for d, times in theaters["001"].items() if d in target_dates}
+        if not dates_in_range:
+            continue
+
+        # タイトルを最初の日付の詳細JSONから取得
+        first_date = sorted(dates_in_range.keys())[0]
+        try:
+            r = requests.get(ALEX_MOVIE_URL.format(movie_id=movie_id, date=first_date), headers=HEADERS, timeout=10)
+            r.raise_for_status()
+            detail = r.json()
+        except Exception as e:
+            print(f"  Alex movie {movie_id}: detail error {e}")
+            continue
+
+        title = ""
+        for screens in detail.values():
+            for screen_data in screens.values():
+                title = screen_data.get("name", {}).get("ja", "")
+                if title:
+                    break
+            if title:
+                break
+        if not title:
+            continue
+
+        schedule = []
+        for date_str, times_dict in sorted(dates_in_range.items()):
+            iso_date = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:]}"
+            times = sorted(f"{t[:2]}:{t[2:]}" for t in times_dict.keys())
+            if times:
+                schedule.append({"date": iso_date, "times": times})
+
+        if schedule:
+            result.append({
+                "title": title,
+                "movie_id": f"alex_{movie_id}",
+                "original_poster_url": "",
+                "schedule": schedule,
+            })
+    return result
+
+
 def merge_direct_schedules(mw_movies: list, direct_movies: list) -> list:
     """直接スクレイピングのデータをMW取得データにマージ（MW未掲載分のみ補完）"""
     mw_by_norm = {normalize_title(m["title"]): m for m in mw_movies}
@@ -365,6 +426,14 @@ def main():
         result["theaters"][UNITED_THEATER_NAME], direct
     )
     print(f"  -> マージ後 {len(result['theaters'][UNITED_THEATER_NAME])} 件")
+
+    print(f"Scraping {ALEX_THEATER_NAME} (direct) ...")
+    direct = scrape_alex(ALEX_THEATER_NAME, today)
+    print(f"  -> {len(direct)} 件取得")
+    result["theaters"][ALEX_THEATER_NAME] = merge_direct_schedules(
+        result["theaters"][ALEX_THEATER_NAME], direct
+    )
+    print(f"  -> マージ後 {len(result['theaters'][ALEX_THEATER_NAME])} 件")
 
     # ポスターをダウンロード
     poster_dir = os.path.join(
