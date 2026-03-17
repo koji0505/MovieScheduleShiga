@@ -31,8 +31,10 @@ AEON_THEATERS = {
     "イオンシネマ近江八幡": "oumihachiman",
     "イオンシネマ草津":     "kusatsu",
 }
-UNITED_THEATER_NAME = "ユナイテッド・シネマ大津"
-ALEX_THEATER_NAME  = "水口アレックスシネマ"
+UNITED_THEATER_NAME   = "ユナイテッド・シネマ大津"
+ALEX_THEATER_NAME     = "水口アレックスシネマ"
+VIVACITY_THEATER_NAME = "彦根ビバシティシネマ"
+VIVACITY_SCHEDULE_URL = "https://www.vivacitycinema.co.jp/schedule/"
 AEON_API_URL      = "https://theater.aeoncinema.com/schedule/v2/data/{slug}/schedule.json"
 AEON_POSTER_URL   = "https://www.aeoncinema.com/movie_images/{movie_id}/poster400x560.jpg"
 UNITED_BASE_URL   = "https://www.unitedcinemas.jp/otsu/daily.php?date={date}"
@@ -365,6 +367,116 @@ def scrape_alex(theater_name: str, today: datetime) -> list:
     return result
 
 
+def scrape_vivacity(today: datetime) -> list:
+    """彦根ビバシティシネマの直接スクレイピング（週間スケジュールHTML）"""
+    try:
+        resp = requests.get(VIVACITY_SCHEDULE_URL, headers=HEADERS, timeout=15)
+        resp.raise_for_status()
+    except Exception as e:
+        print(f"  Vivacity: error {e}")
+        return []
+
+    soup = BeautifulSoup(resp.content, "html.parser")
+    movies_by_title: dict = {}
+
+    for table in soup.find_all("table", class_="schedule"):
+        thead = table.find("thead")
+        if not thead:
+            continue
+
+        # 日付範囲を取得: "3/16（月）～3/19（木）" → start/end
+        header_text = thead.get_text()
+        m = re.search(r'(\d{1,2})/(\d{1,2})[^～〜]*[～〜]\s*(\d{1,2})/(\d{1,2})', header_text)
+        if not m:
+            continue
+        s_month, s_day = int(m.group(1)), int(m.group(2))
+        e_month, e_day = int(m.group(3)), int(m.group(4))
+
+        year = today.year
+        # 年末年始をまたぐ場合
+        if e_month < s_month:
+            e_year = year + 1
+        else:
+            e_year = year
+        # 開始月が現在より小さい場合は翌年の可能性
+        if s_month < today.month - 1:
+            year += 1
+            e_year += 1
+
+        start_dt = datetime(year, s_month, s_day)
+        end_dt = datetime(e_year, e_month, e_day)
+
+        # 期間内の各日付を生成（過去日はスキップ）
+        dates = []
+        d = start_dt
+        while d <= end_dt:
+            if d.date() >= today.date():
+                dates.append(d.strftime("%Y-%m-%d"))
+            d += timedelta(days=1)
+        if not dates:
+            continue
+
+        # tbody内の映画行・時刻行を解析
+        tbody = table.find("tbody")
+        if not tbody:
+            continue
+
+        rows = tbody.find_all("tr")
+        i = 0
+        while i < len(rows):
+            th = rows[i].find("th")
+            if th:
+                title_a = th.find("a")
+                if not title_a or i + 1 >= len(rows):
+                    i += 1
+                    continue
+
+                title = title_a.get_text(strip=True)
+                href = title_a.get("href", "")
+                id_m = re.search(r'/(\d+)/?$', href)
+                movie_id = f"vivacity_{id_m.group(1)}" if id_m else ""
+
+                # 次の行から上映時刻を取得
+                time_row = rows[i + 1]
+                times = []
+                for td in time_row.find_all("td"):
+                    strong = td.find("strong")
+                    if strong:
+                        t = strong.get_text(strip=True)
+                        if re.match(r'\d{1,2}:\d{2}', t):
+                            times.append(t)
+
+                if times:
+                    if title not in movies_by_title:
+                        movies_by_title[title] = {
+                            "title": title,
+                            "movie_id": movie_id,
+                            "original_poster_url": "",
+                            "schedule": {},
+                        }
+                    sched = movies_by_title[title]["schedule"]
+                    for date in dates:
+                        if date not in sched:
+                            sched[date] = sorted(times)
+                        else:
+                            sched[date] = sorted(set(sched[date]) | set(times))
+                i += 2
+            else:
+                i += 1
+
+    result = []
+    for movie in movies_by_title.values():
+        schedule_list = [{"date": d, "times": t} for d, t in sorted(movie["schedule"].items())]
+        if schedule_list:
+            result.append({
+                "title": movie["title"],
+                "movie_id": movie["movie_id"],
+                "original_poster_url": "",
+                "schedule": schedule_list,
+            })
+    return result
+
+
 def merge_direct_schedules(mw_movies: list, direct_movies: list) -> list:
     """直接スクレイピングのデータをMW取得データにマージ（MW未掲載分のみ補完）"""
     mw_by_norm = {normalize_title(m["title"]): m for m in mw_movies}
@@ -483,6 +595,14 @@ def main():
         result["theaters"][ALEX_THEATER_NAME], direct
     )
     print(f"  -> マージ後 {len(result['theaters'][ALEX_THEATER_NAME])} 件")
+
+    print(f"Scraping {VIVACITY_THEATER_NAME} (direct) ...")
+    direct = scrape_vivacity(today)
+    print(f"  -> {len(direct)} 件取得")
+    result["theaters"][VIVACITY_THEATER_NAME] = merge_direct_schedules(
+        result["theaters"][VIVACITY_THEATER_NAME], direct
+    )
+    print(f"  -> マージ後 {len(result['theaters'][VIVACITY_THEATER_NAME])} 件")
 
     # ポスターをダウンロード
     poster_dir = os.path.join(
