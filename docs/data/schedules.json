@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T15:38:36",
+  "updated_at": "2026-03-17T16:26:04",
   "theaters": {
     "ユナイテッド・シネマ大津": [
       {
@@ -921,7 +921,7 @@
           }
         ],
         "movie_id": "uc_21298",
-        "poster_url": ""
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90557.jpg"
       },
       {
         "title": "私がビーバーになる時（吹替）",
@@ -1178,7 +1178,7 @@
           }
         ],
         "movie_id": "uc_21262",
-        "poster_url": ""
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89802.jpg"
       },
       {
         "title": "ウィキッド　永遠の約束（吹替）",
@@ -1521,7 +1521,7 @@
           }
         ],
         "movie_id": "uc_21333",
-        "poster_url": ""
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90311.jpg"
       },
       {
         "title": "プロジェクト・ヘイル・メアリー（吹替）",
