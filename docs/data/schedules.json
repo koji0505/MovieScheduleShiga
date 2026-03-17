@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T15:22:41",
+  "updated_at": "2026-03-17T15:38:36",
   "theaters": {
     "ユナイテッド・シネマ大津": [
       {
@@ -1153,7 +1153,7 @@
           }
         ],
         "movie_id": "uc_21288",
-        "poster_url": ""
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/88862.jpg"
       },
       {
         "title": "ウィキッド　永遠の約束　4DX2D（吹替）",
@@ -1410,7 +1410,7 @@
           }
         ],
         "movie_id": "uc_21220",
-        "poster_url": ""
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90945.jpg"
       },
       {
         "title": "レンタル・ファミリー（字幕）",
@@ -1794,7 +1794,7 @@
           }
         ],
         "movie_id": "uc_21325",
-        "poster_url": ""
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/87487.jpg"
       },
       {
         "title": "ゴールデンカムイ 網走監獄襲撃編　4DX2D",
@@ -1843,7 +1843,7 @@
           }
         ],
         "movie_id": "uc_21305",
-        "poster_url": ""
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/88510.jpg"
       },
       {
         "title": "劇場版『チェンソーマン レゼ篇』 炸裂御礼！ファイナル舞台挨拶  全国同時中継",
