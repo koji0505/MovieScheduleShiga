@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T12:23:02",
+  "updated_at": "2026-03-17T12:44:52",
   "theaters": {
     "ユナイテッド・シネマ大津": [
       {
@@ -33,6 +33,10 @@
           {
             "date": "2026-03-17",
             "times": [
+              "10:50",
+              "13:30",
+              "16:10",
+              "18:50",
               "21:30"
             ]
           },
@@ -1009,7 +1013,7 @@
           }
         ],
         "movie_id": "uc_21296",
-        "poster_url": ""
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90557.jpg"
       },
       {
         "title": "マーティ・シュプリーム 世界をつかめ（字幕）",
@@ -1079,7 +1083,7 @@
           }
         ],
         "movie_id": "uc_21291",
-        "poster_url": ""
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91827.jpg"
       },
       {
         "title": "機動戦士ガンダム 閃光のハサウェイ キルケーの魔女　4DX2D",
@@ -1241,7 +1245,7 @@
           }
         ],
         "movie_id": "uc_21258",
-        "poster_url": ""
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89802.jpg"
       },
       {
         "title": "ウィキッド　永遠の約束（字幕）",
@@ -1311,7 +1315,7 @@
           }
         ],
         "movie_id": "uc_21257",
-        "poster_url": ""
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89802.jpg"
       },
       {
         "title": "【デビューdeシネマ】映画ドラえもん 新・のび太の海底鬼岩城",
@@ -1431,7 +1435,7 @@
           }
         ],
         "movie_id": "uc_21211",
-        "poster_url": ""
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/85851.jpg"
       },
       {
         "title": "劇場版『チェンソーマン レゼ篇』",
@@ -1566,7 +1570,7 @@
           }
         ],
         "movie_id": "uc_21330",
-        "poster_url": ""
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90311.jpg"
       },
       {
         "title": "プロジェクト・ヘイル・メアリー（字幕）",
@@ -1622,7 +1626,7 @@
           }
         ],
         "movie_id": "uc_21329",
-        "poster_url": ""
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90311.jpg"
       },
       {
         "title": "君が最後に遺した歌",
@@ -1692,7 +1696,7 @@
           }
         ],
         "movie_id": "uc_21327",
-        "poster_url": ""
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/90987.jpg"
       },
       {
         "title": "アメリと雨の物語（吹替）",
@@ -2179,6 +2183,10 @@
           {
             "date": "2026-03-17",
             "times": [
+              "10:50",
+              "13:30",
+              "16:15",
+              "18:55",
               "21:35"
             ]
           },
@@ -2274,6 +2282,8 @@
           {
             "date": "2026-03-17",
             "times": [
+              "11:45",
+              "16:45",
               "21:30"
             ]
           },
@@ -2580,6 +2590,7 @@
           {
             "date": "2026-03-17",
             "times": [
+              "13:35",
               "21:40"
             ]
           },
@@ -2970,12 +2981,6 @@
       {
         "title": "レンタル・ファミリー",
         "schedule": [
-          {
-            "date": "2026-03-17",
-            "times": [
-              "21:35"
-            ]
-          },
           {
             "date": "2026-03-18",
             "times": [
@@ -4954,6 +4959,10 @@
           {
             "date": "2026-03-17",
             "times": [
+              "09:35",
+              "12:15",
+              "15:40",
+              "18:25",
               "21:30"
             ]
           },
@@ -5050,6 +5059,8 @@
           {
             "date": "2026-03-17",
             "times": [
+              "11:50",
+              "16:40",
               "21:40"
             ]
           },
@@ -5591,12 +5602,6 @@
       {
         "title": "センチメンタル・バリュー",
         "schedule": [
-          {
-            "date": "2026-03-17",
-            "times": [
-              "21:25"
-            ]
-          },
           {
             "date": "2026-03-18",
             "times": [
@@ -7156,12 +7161,6 @@
         "title": "私がビーバーになる時",
         "schedule": [
           {
-            "date": "2026-03-17",
-            "times": [
-              "21:10"
-            ]
-          },
-          {
             "date": "2026-03-18",
             "times": [
               "9:50",
@@ -7191,6 +7190,10 @@
           {
             "date": "2026-03-17",
             "times": [
+              "09:20",
+              "11:50",
+              "14:30",
+              "17:00",
               "21:30"
             ]
           },
@@ -7410,6 +7413,8 @@
           {
             "date": "2026-03-17",
             "times": [
+              "09:20",
+              "15:30",
               "21:20"
             ]
           },
@@ -7488,6 +7493,7 @@
           {
             "date": "2026-03-17",
             "times": [
+              "16:30",
               "21:40"
             ]
           },
@@ -7868,7 +7874,7 @@
           }
         ],
         "movie_id": "alex_11774",
-        "poster_url": ""
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_182120.jpg"
       },
       {
         "title": "劇場版『チェンソーマン レゼ篇』",
@@ -8387,12 +8393,6 @@
         "title": "木挽町のあだ討ち",
         "schedule": [
           {
-            "date": "2026-03-17",
-            "times": [
-              "21:15"
-            ]
-          },
-          {
             "date": "2026-03-18",
             "times": [
               "10:40",
@@ -8592,12 +8592,6 @@
       {
         "title": "機動戦士ガンダム 閃光のハサウェイ キルケーの魔女",
         "schedule": [
-          {
-            "date": "2026-03-17",
-            "times": [
-              "21:45"
-            ]
-          },
           {
             "date": "2026-03-18",
             "times": [
