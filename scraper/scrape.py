@@ -120,73 +120,89 @@ def scrape_theater(theater_name: str, theater_id: str, today: datetime) -> list:
     return movies
 
 
+def _parse_aeon_page(soup: BeautifulSoup, iso_date: str, movies_by_title: dict) -> bool:
+    """イオンシネマの1日分HTMLをパース。映画があればTrueを返す。"""
+    movie_divs = soup.find_all("div", class_="p-schedule__movie")
+    if not movie_divs:
+        return False
+
+    for div in movie_divs:
+        poster_link = div.find("a", class_="p-schedule__poster")
+        poster_url = ""
+        movie_url_id = ""
+        if poster_link:
+            href = poster_link.get("href", "")
+            m = re.search(r"/movie/([^/]+)/", href)
+            if m:
+                movie_url_id = m.group(1)
+            img = poster_link.find("img")
+            if img:
+                poster_url = img.get("src", "")
+
+        for info_div in div.find_all("div", class_="p-schedule__information"):
+            h2 = info_div.find("h2")
+            if not h2:
+                continue
+            title = h2.get_text(strip=True)
+
+            times = []
+            for ticket in info_div.find_all("div", class_="p-schedule__ticket"):
+                time_div = ticket.find("div", class_="p-schedule__time")
+                if time_div:
+                    span = time_div.find("span")
+                    if span:
+                        times.append(span.get_text(strip=True))
+            if not times:
+                continue
+
+            movie_id = f"aeon_{movie_url_id}" if movie_url_id else ""
+            if title not in movies_by_title:
+                movies_by_title[title] = {
+                    "title": title,
+                    "movie_id": movie_id,
+                    "original_poster_url": poster_url,
+                    "schedule": {},
+                }
+            sched = movies_by_title[title]["schedule"]
+            if iso_date not in sched:
+                sched[iso_date] = times
+            else:
+                sched[iso_date] = sorted(set(sched[iso_date]) | set(times))
+    return True
+
+
 def scrape_aeon(theater_name: str, slug: str, today: datetime) -> list:
-    """イオンシネマの直接スクレイピング（最大DIRECT_SCRAPE_DAYS日分）"""
+    """イオンシネマの直接スクレイピング（Playwright使用、最大DIRECT_SCRAPE_DAYS日分）"""
+    from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+
     movies_by_title: dict = {}
 
-    for delta in range(DIRECT_SCRAPE_DAYS):
-        date = today + timedelta(days=delta)
-        date_str = date.strftime("%Y%m%d")
-        iso_date = date.strftime("%Y-%m-%d")
-        url = AEON_BASE_URL.format(slug=slug, date=date_str)
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        pw_page = browser.new_page()
 
-        try:
-            resp = requests.get(url, headers=HEADERS, timeout=15)
-            resp.raise_for_status()
-        except requests.RequestException as e:
-            print(f"  Aeon {theater_name} {date_str}: Error {e}")
-            break
+        for delta in range(DIRECT_SCRAPE_DAYS):
+            date = today + timedelta(days=delta)
+            date_str = date.strftime("%Y%m%d")
+            iso_date = date.strftime("%Y-%m-%d")
+            url = AEON_BASE_URL.format(slug=slug, date=date_str)
 
-        soup = BeautifulSoup(resp.text, "html.parser")
-        movie_divs = soup.find_all("div", class_="p-schedule__movie")
-        if not movie_divs:
-            print(f"  Aeon {theater_name} {date_str}: no movies, stopping")
-            break
+            try:
+                pw_page.goto(url, timeout=30000)
+                pw_page.wait_for_selector(".p-schedule__movie", timeout=10000)
+            except PWTimeout:
+                print(f"  Aeon {theater_name} {date_str}: no movies, stopping")
+                break
+            except Exception as e:
+                print(f"  Aeon {theater_name} {date_str}: Error {e}")
+                break
 
-        for div in movie_divs:
-            # ポスターURLと映画IDは p-schedule__poster から取得
-            poster_link = div.find("a", class_="p-schedule__poster")
-            poster_url = ""
-            movie_url_id = ""
-            if poster_link:
-                href = poster_link.get("href", "")
-                m = re.search(r"/movie/([^/]+)/", href)
-                if m:
-                    movie_url_id = m.group(1)
-                img = poster_link.find("img")
-                if img:
-                    poster_url = img.get("src", "")
+            soup = BeautifulSoup(pw_page.content(), "html.parser")
+            if not _parse_aeon_page(soup, iso_date, movies_by_title):
+                print(f"  Aeon {theater_name} {date_str}: no movies (empty), stopping")
+                break
 
-            # 字幕/吹替など各バリアントを個別に処理
-            for info_div in div.find_all("div", class_="p-schedule__information"):
-                h2 = info_div.find("h2")
-                if not h2:
-                    continue
-                title = h2.get_text(strip=True)
-
-                times = []
-                for ticket in info_div.find_all("div", class_="p-schedule__ticket"):
-                    time_div = ticket.find("div", class_="p-schedule__time")
-                    if time_div:
-                        span = time_div.find("span")
-                        if span:
-                            times.append(span.get_text(strip=True))
-                if not times:
-                    continue
-
-                movie_id = f"aeon_{movie_url_id}" if movie_url_id else ""
-                if title not in movies_by_title:
-                    movies_by_title[title] = {
-                        "title": title,
-                        "movie_id": movie_id,
-                        "original_poster_url": poster_url,
-                        "schedule": {},
-                    }
-                sched = movies_by_title[title]["schedule"]
-                if iso_date not in sched:
-                    sched[iso_date] = times
-                else:
-                    sched[iso_date] = sorted(set(sched[iso_date]) | set(times))
+        browser.close()
 
     result = []
     for movie in movies_by_title.values():
@@ -218,7 +234,8 @@ def scrape_united(today: datetime) -> list:
             print(f"  United {date_str}: Error {e}")
             break
 
-        soup = BeautifulSoup(resp.text, "html.parser")
+        # resp.content を使い BeautifulSoup に文字コード検出を任せる（Shift-JIS対応）
+        soup = BeautifulSoup(resp.content, "html.parser")
         daily_list = soup.find("ul", id="dailyList")
         if not daily_list:
             print(f"  United {date_str}: no dailyList, stopping")
