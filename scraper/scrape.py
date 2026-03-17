@@ -627,6 +627,15 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 
+    # index.html の app.js バージョンを更新してブラウザキャッシュを無効化
+    index_path = os.path.join(os.path.dirname(__file__), "..", "docs", "index.html")
+    version = today.strftime("%Y%m%d%H%M%S")
+    with open(index_path, "r", encoding="utf-8") as f:
+        html = f.read()
+    html = re.sub(r'app\.js\?v=\d+', f'app.js?v={version}', html)
+    with open(index_path, "w", encoding="utf-8") as f:
+        f.write(html)
+
     print(f"\n保存完了: {out_path}")
 
 
