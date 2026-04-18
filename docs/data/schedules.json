@@ -1,27 +1,17 @@
 {
-  "updated_at": "2026-04-17T20:40:30",
+  "updated_at": "2026-04-18T20:31:47",
   "theaters": {
     "ユナイテッド・シネマ大津": [
       {
         "title": "人はなぜラブレターを書くのか",
         "schedule": [
           {
-            "date": "2026-04-17",
+            "date": "2026-04-18",
             "times": [
               "08:30",
               "11:10",
+              "13:50",
               "17:20",
-              "19:10",
-              "20:40"
-            ]
-          },
-          {
-            "date": "2026-04-18",
-            "times": [
-              "8:30",
-              "11:10",
-              "17:20",
-              "19:10",
               "20:40"
             ]
           },
@@ -83,21 +73,12 @@
         "title": "ONE OK ROCK DETOX JAPAN TOUR 2025 AT NISSAN STADIUM IN CINEMAS",
         "schedule": [
           {
-            "date": "2026-04-17",
-            "times": [
-              "11:10",
-              "13:50",
-              "15:20",
-              "18:00"
-            ]
-          },
-          {
             "date": "2026-04-18",
             "times": [
-              "11:10",
-              "13:50",
+              "10:40",
               "15:20",
-              "18:00"
+              "17:50",
+              "20:20"
             ]
           },
           {
@@ -153,24 +134,9 @@
         "title": "名探偵コナン ハイウェイの堕天使",
         "schedule": [
           {
-            "date": "2026-04-17",
-            "times": [
-              "08:45",
-              "10:00",
-              "11:40",
-              "12:30",
-              "14:20",
-              "15:00",
-              "17:00",
-              "17:30",
-              "19:30",
-              "20:10"
-            ]
-          },
-          {
             "date": "2026-04-18",
             "times": [
-              "8:45",
+              "08:45",
               "10:00",
               "11:40",
               "12:30",
@@ -265,12 +231,6 @@
         "title": "鬼の花嫁",
         "schedule": [
           {
-            "date": "2026-04-17",
-            "times": [
-              "14:40"
-            ]
-          },
-          {
             "date": "2026-04-18",
             "times": [
               "14:40"
@@ -313,12 +273,6 @@
       {
         "title": "映画 えんとつ町のプペル ～約束の時計台～",
         "schedule": [
-          {
-            "date": "2026-04-17",
-            "times": [
-              "13:00"
-            ]
-          },
           {
             "date": "2026-04-18",
             "times": [
@@ -363,12 +317,6 @@
         "title": "プロジェクト・ヘイル・メアリー",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "19:10"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "20:00"
@@ -406,15 +354,9 @@
         "title": "君が最後に遺した歌",
         "schedule": [
           {
-            "date": "2026-04-17",
-            "times": [
-              "16:30"
-            ]
-          },
-          {
             "date": "2026-04-18",
             "times": [
-              "16:30"
+              "13:10"
             ]
           },
           {
@@ -454,12 +396,6 @@
       {
         "title": "私がビーバーになる時",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "8:15"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -502,15 +438,9 @@
         "title": "ゴールデンカムイ 網走監獄襲撃編",
         "schedule": [
           {
-            "date": "2026-04-17",
-            "times": [
-              "08:30"
-            ]
-          },
-          {
             "date": "2026-04-18",
             "times": [
-              "8:30"
+              "08:00"
             ]
           },
           {
@@ -551,12 +481,6 @@
         "title": "ウィキッド 永遠の約束",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "11:40"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "11:40"
@@ -593,12 +517,6 @@
       {
         "title": "映画ドラえもん 新・のび太の海底鬼岩城",
         "schedule": [
-          {
-            "date": "2026-04-17",
-            "times": [
-              "10:40"
-            ]
-          },
           {
             "date": "2026-04-18",
             "times": [
@@ -643,15 +561,9 @@
         "title": "映画「教場 Requiem」",
         "schedule": [
           {
-            "date": "2026-04-17",
-            "times": [
-              "08:30"
-            ]
-          },
-          {
             "date": "2026-04-18",
             "times": [
-              "8:30"
+              "08:30"
             ]
           },
           {
@@ -704,12 +616,6 @@
       {
         "title": "ほどなく、お別れです",
         "schedule": [
-          {
-            "date": "2026-04-17",
-            "times": [
-              "20:00"
-            ]
-          },
           {
             "date": "2026-04-18",
             "times": [
@@ -782,34 +688,27 @@
         "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/88862.jpg"
       },
       {
-        "title": "『BTS WORLD TOUR 'ARIRANG' IN JAPAN』ライブビューイング",
+        "title": "NCT WISH 1st “INTO THE WISH : Our WISH” ENCORE IN SEOUL",
         "schedule": [
-          {
-            "date": "2026-04-17",
-            "times": [
-              "15:00"
-            ]
-          },
           {
             "date": "2026-04-18",
             "times": [
-              "15:00"
+              "16:00"
+            ]
+          },
+          {
+            "date": "2026-04-19",
+            "times": [
+              "16:00"
             ]
           }
         ],
-        "movie_id": "uc_21521",
+        "movie_id": "uc_21524",
         "poster_url": ""
       },
       {
         "title": "ONE OK ROCK DETOX JAPAN TOUR 2025 AT NISSAN STADIUM IN CINEMAS　4DX2D",
         "schedule": [
-          {
-            "date": "2026-04-17",
-            "times": [
-              "08:15",
-              "20:50"
-            ]
-          },
           {
             "date": "2026-04-18",
             "times": [
@@ -859,15 +758,6 @@
       {
         "title": "名探偵コナン ハイウェイの堕天使　4DX2D",
         "schedule": [
-          {
-            "date": "2026-04-17",
-            "times": [
-              "10:50",
-              "13:20",
-              "15:50",
-              "18:20"
-            ]
-          },
           {
             "date": "2026-04-18",
             "times": [
@@ -930,15 +820,9 @@
         "title": "プロジェクト・ヘイル・メアリー（字幕）",
         "schedule": [
           {
-            "date": "2026-04-17",
-            "times": [
-              "19:10"
-            ]
-          },
-          {
             "date": "2026-04-18",
             "times": [
-              "19:10"
+              "20:00"
             ]
           },
           {
@@ -978,12 +862,6 @@
       {
         "title": "私がビーバーになる時（吹替）",
         "schedule": [
-          {
-            "date": "2026-04-17",
-            "times": [
-              "08:15"
-            ]
-          },
           {
             "date": "2026-04-18",
             "times": [
@@ -1032,12 +910,6 @@
         "title": "ウィキッド　永遠の約束（吹替）",
         "schedule": [
           {
-            "date": "2026-04-17",
-            "times": [
-              "11:40"
-            ]
-          },
-          {
             "date": "2026-04-18",
             "times": [
               "11:40"
@@ -1078,21 +950,14 @@
         "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/89802.jpg"
       },
       {
-        "title": "NCT WISH 1st “INTO THE WISH : Our WISH” ENCORE IN SEOUL",
-        "schedule": [
-          {
-            "date": "2026-04-19",
-            "times": [
-              "16:00"
-            ]
-          }
-        ],
-        "movie_id": "uc_21524",
-        "poster_url": ""
-      },
-      {
         "title": "『新劇場版 銀魂 -吉原大炎上-』舞台挨拶＜君の名前は。祭＞ライブビューイング",
         "schedule": [
+          {
+            "date": "2026-04-18",
+            "times": [
+              "17:20"
+            ]
+          },
           {
             "date": "2026-04-19",
             "times": [
@@ -1121,16 +986,6 @@
       {
         "title": "人はなぜラブレターを書くのか",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "10:40",
-              "13:20",
-              "16:00",
-              "18:40",
-              "21:25"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -1189,14 +1044,6 @@
         "title": "ソング・サング・ブルー",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "8:25",
-              "10:35",
-              "18:20"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "8:35",
@@ -1241,44 +1088,8 @@
         "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/92097.jpg"
       },
       {
-        "title": "『BTS WORLD TOUR 'ARIRANG' IN JAPAN』ライブビューイング",
-        "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "15:00"
-            ]
-          }
-        ],
-        "movie_id": "",
-        "poster_url": ""
-      },
-      {
         "title": "名探偵コナン ハイウェイの堕天使",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "8:40",
-              "9:05",
-              "10:00",
-              "11:00",
-              "11:45",
-              "12:40",
-              "13:40",
-              "14:00",
-              "14:25",
-              "15:20",
-              "15:45",
-              "16:20",
-              "17:05",
-              "18:00",
-              "19:00",
-              "20:40",
-              "21:20",
-              "21:45"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -1382,13 +1193,6 @@
         "title": "ガールズ＆パンツァー もっとらぶらぶ作戦です！ 第4幕",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "12:10",
-              "19:25"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "10:10",
@@ -1462,12 +1266,6 @@
         "title": "ザ・ブライド！",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "21:35"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "21:30"
@@ -1505,12 +1303,6 @@
         "title": "落下音",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "21:05"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "21:05"
@@ -1547,12 +1339,6 @@
       {
         "title": "鬼の花嫁",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "16:40"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -1598,12 +1384,6 @@
       {
         "title": "映画 えんとつ町のプペル ～約束の時計台～",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "19:15"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -1673,12 +1453,6 @@
         "title": "映画きかんしゃトーマス　いっしょに歌おう！ドレミファ♪ソドー島",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "8:15"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "8:15"
@@ -1715,12 +1489,6 @@
       {
         "title": "プロジェクト・ヘイル・メアリー",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "17:45"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -1763,12 +1531,6 @@
         "title": "君が最後に遺した歌",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "21:40"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "21:40"
@@ -1805,13 +1567,6 @@
       {
         "title": "劇場版「暗殺教室」みんなの時間",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "8:35",
-              "19:45"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -1855,14 +1610,6 @@
         "title": "私がビーバーになる時",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "8:20",
-              "9:50",
-              "11:20"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "10:35",
@@ -1902,12 +1649,6 @@
         "title": "ゴールデンカムイ 網走監獄襲撃編",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "21:30"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "21:40"
@@ -1944,13 +1685,6 @@
       {
         "title": "超かぐや姫！",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "14:45",
-              "20:55"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -1994,12 +1728,6 @@
         "title": "映画ひみつのアイプリ　まんかいバズリウムライブ！",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "8:10"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "8:10"
@@ -2012,12 +1740,6 @@
       {
         "title": "ウィキッド 永遠の約束",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "8:45"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -2055,13 +1777,6 @@
       {
         "title": "映画ドラえもん 新・のび太の海底鬼岩城",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "11:10",
-              "13:25"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -2133,12 +1848,6 @@
         "title": "映画「教場 Requiem」",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "11:35"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "8:30"
@@ -2175,12 +1884,6 @@
       {
         "title": "夜勤事件",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "19:35"
-            ]
-          },
           {
             "date": "2026-04-20",
             "times": [
@@ -2226,12 +1929,6 @@
       {
         "title": "ほどなく、お別れです",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "8:15"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -2332,12 +2029,6 @@
         "title": "応援上映) 映画ひみつのｱｲﾌﾟﾘ まんかいﾊﾞｽﾞﾘｳﾑﾗｲﾌﾞ!",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "08:10"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "08:10"
@@ -2348,63 +2039,82 @@
         "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_216370.jpg"
       },
       {
-        "title": "吹替 私がﾋﾞｰﾊﾞｰになる時",
+        "title": "映画 えんとつ町のﾌﾟﾍﾟﾙ 約束の時計台",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "08:20",
-              "09:50",
-              "11:20"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
-              "10:35",
-              "12:25",
-              "16:40"
+              "08:20"
             ]
           },
           {
             "date": "2026-04-20",
             "times": [
-              "09:20"
+              "09:15"
             ]
           },
           {
             "date": "2026-04-21",
             "times": [
-              "09:20"
+              "09:15"
             ]
           },
           {
             "date": "2026-04-22",
             "times": [
-              "09:20"
+              "09:15"
             ]
           },
           {
             "date": "2026-04-23",
             "times": [
-              "09:20"
+              "09:15"
             ]
           }
         ],
-        "movie_id": "aeon_205688",
-        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_205688.jpg"
+        "movie_id": "aeon_193487",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_193487.jpg"
+      },
+      {
+        "title": "教場 Requiem",
+        "schedule": [
+          {
+            "date": "2026-04-19",
+            "times": [
+              "08:30"
+            ]
+          },
+          {
+            "date": "2026-04-20",
+            "times": [
+              "11:50"
+            ]
+          },
+          {
+            "date": "2026-04-21",
+            "times": [
+              "11:50"
+            ]
+          },
+          {
+            "date": "2026-04-22",
+            "times": [
+              "11:50"
+            ]
+          },
+          {
+            "date": "2026-04-23",
+            "times": [
+              "11:50"
+            ]
+          }
+        ],
+        "movie_id": "aeon_211109",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_211109.jpg"
       },
       {
         "title": "字幕 ｿﾝｸﾞ･ｻﾝｸﾞ･ﾌﾞﾙｰ",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "08:25",
-              "10:35",
-              "18:20"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -2450,101 +2160,8 @@
         "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_219738.jpg"
       },
       {
-        "title": "字幕 ｳｨｷｯﾄﾞ 永遠の約束",
-        "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "08:45"
-            ]
-          },
-          {
-            "date": "2026-04-19",
-            "times": [
-              "20:25"
-            ]
-          },
-          {
-            "date": "2026-04-20",
-            "times": [
-              "14:05"
-            ]
-          },
-          {
-            "date": "2026-04-21",
-            "times": [
-              "14:05"
-            ]
-          },
-          {
-            "date": "2026-04-22",
-            "times": [
-              "14:05"
-            ]
-          },
-          {
-            "date": "2026-04-23",
-            "times": [
-              "14:05"
-            ]
-          }
-        ],
-        "movie_id": "aeon_205235",
-        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_205235.jpg"
-      },
-      {
-        "title": "教場 Requiem",
-        "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "11:35"
-            ]
-          },
-          {
-            "date": "2026-04-19",
-            "times": [
-              "08:30"
-            ]
-          },
-          {
-            "date": "2026-04-20",
-            "times": [
-              "11:50"
-            ]
-          },
-          {
-            "date": "2026-04-21",
-            "times": [
-              "11:50"
-            ]
-          },
-          {
-            "date": "2026-04-22",
-            "times": [
-              "11:50"
-            ]
-          },
-          {
-            "date": "2026-04-23",
-            "times": [
-              "11:50"
-            ]
-          }
-        ],
-        "movie_id": "aeon_211109",
-        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_211109.jpg"
-      },
-      {
         "title": "ｶﾞｰﾙｽﾞ&ﾊﾟﾝﾂｧｰ もっとらぶらぶ作戦です!第四幕",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "12:10",
-              "19:25"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -2585,28 +2202,61 @@
         "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_204739.jpg"
       },
       {
-        "title": "BTS WORLD TOUR ARIRANG IN JAPAN.",
+        "title": "吹替 私がﾋﾞｰﾊﾞｰになる時",
         "schedule": [
           {
-            "date": "2026-04-18",
+            "date": "2026-04-19",
             "times": [
-              "15:00",
-              "15:00"
+              "10:35",
+              "12:25",
+              "16:40"
+            ]
+          },
+          {
+            "date": "2026-04-20",
+            "times": [
+              "09:20"
+            ]
+          },
+          {
+            "date": "2026-04-21",
+            "times": [
+              "09:20"
+            ]
+          },
+          {
+            "date": "2026-04-22",
+            "times": [
+              "09:20"
+            ]
+          },
+          {
+            "date": "2026-04-23",
+            "times": [
+              "09:20"
             ]
           }
         ],
-        "movie_id": "aeon_AC101607",
-        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_AC101607.jpg"
+        "movie_id": "aeon_205688",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_205688.jpg"
+      },
+      {
+        "title": "舞台挨拶中継付き) 新劇場版 銀魂 吉原大炎上",
+        "schedule": [
+          {
+            "date": "2026-04-19",
+            "times": [
+              "14:00",
+              "17:20"
+            ]
+          }
+        ],
+        "movie_id": "aeon_206848",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_206848.jpg"
       },
       {
         "title": "字幕 ﾌﾟﾛｼﾞｪｸﾄ･ﾍｲﾙ･ﾒｱﾘｰ",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "17:45"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -2646,94 +2296,58 @@
         "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_203898.jpg"
       },
       {
-        "title": "映画 えんとつ町のﾌﾟﾍﾟﾙ 約束の時計台",
+        "title": "Hi-STANDARD Screaming Newborn Baby Tour",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "19:15"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
-              "08:20"
-            ]
-          },
-          {
-            "date": "2026-04-20",
-            "times": [
-              "09:15"
-            ]
-          },
-          {
-            "date": "2026-04-21",
-            "times": [
-              "09:15"
-            ]
-          },
-          {
-            "date": "2026-04-22",
-            "times": [
-              "09:15"
-            ]
-          },
-          {
-            "date": "2026-04-23",
-            "times": [
-              "09:15"
+              "18:00"
             ]
           }
         ],
-        "movie_id": "aeon_193487",
-        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_193487.jpg"
+        "movie_id": "aeon_AC101668",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_AC101668.jpg"
       },
       {
-        "title": "夜勤事件 The Convenience Store",
+        "title": "字幕 ｳｨｷｯﾄﾞ 永遠の約束",
         "schedule": [
           {
-            "date": "2026-04-18",
+            "date": "2026-04-19",
             "times": [
-              "19:35"
+              "20:25"
             ]
           },
           {
             "date": "2026-04-20",
             "times": [
-              "16:55"
+              "14:05"
             ]
           },
           {
             "date": "2026-04-21",
             "times": [
-              "16:55"
+              "14:05"
             ]
           },
           {
             "date": "2026-04-22",
             "times": [
-              "16:55"
+              "14:05"
             ]
           },
           {
             "date": "2026-04-23",
             "times": [
-              "16:55"
+              "14:05"
             ]
           }
         ],
-        "movie_id": "aeon_208733",
-        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_208733.jpg"
+        "movie_id": "aeon_205235",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_205235.jpg"
       },
       {
         "title": "字幕 落下音",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "21:05"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -2772,12 +2386,6 @@
         "title": "字幕 ｻﾞ･ﾌﾞﾗｲﾄﾞ!",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "21:35"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "21:30"
@@ -2812,31 +2420,35 @@
         "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_218064.jpg"
       },
       {
-        "title": "舞台挨拶中継付き) 新劇場版 銀魂 吉原大炎上",
+        "title": "夜勤事件 The Convenience Store",
         "schedule": [
           {
-            "date": "2026-04-19",
+            "date": "2026-04-20",
             "times": [
-              "14:00",
-              "17:20"
+              "16:55"
+            ]
+          },
+          {
+            "date": "2026-04-21",
+            "times": [
+              "16:55"
+            ]
+          },
+          {
+            "date": "2026-04-22",
+            "times": [
+              "16:55"
+            ]
+          },
+          {
+            "date": "2026-04-23",
+            "times": [
+              "16:55"
             ]
           }
         ],
-        "movie_id": "aeon_206848",
-        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_206848.jpg"
-      },
-      {
-        "title": "Hi-STANDARD Screaming Newborn Baby Tour",
-        "schedule": [
-          {
-            "date": "2026-04-19",
-            "times": [
-              "18:00"
-            ]
-          }
-        ],
-        "movie_id": "aeon_AC101668",
-        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_AC101668.jpg"
+        "movie_id": "aeon_208733",
+        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_208733.jpg"
       },
       {
         "title": "WXIII 機動警察ﾊﾟﾄﾚｲﾊﾞｰ 4Kﾘﾏｽﾀｰ版",
@@ -2874,16 +2486,6 @@
       {
         "title": "人はなぜラブレターを書くのか",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "8:40",
-              "11:15",
-              "13:50",
-              "18:40",
-              "21:15"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -2939,42 +2541,8 @@
         "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/91966.jpg"
       },
       {
-        "title": "『BTS WORLD TOUR 'ARIRANG' IN JAPAN』ライブビューイング",
-        "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "15:00"
-            ]
-          }
-        ],
-        "movie_id": "",
-        "poster_url": ""
-      },
-      {
         "title": "名探偵コナン ハイウェイの堕天使",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "8:30",
-              "9:15",
-              "10:00",
-              "11:10",
-              "12:00",
-              "12:40",
-              "13:05",
-              "14:40",
-              "15:30",
-              "16:30",
-              "17:20",
-              "18:15",
-              "19:10",
-              "20:00",
-              "20:40",
-              "21:00"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -3084,12 +2652,6 @@
         "title": "鬼の花嫁",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "11:35"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "11:25",
@@ -3131,13 +2693,6 @@
       {
         "title": "映画 えんとつ町のプペル ～約束の時計台～",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "8:30",
-              "19:05"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -3207,12 +2762,6 @@
         "title": "映画きかんしゃトーマス　いっしょに歌おう！ドレミファ♪ソドー島",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "8:25"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "8:25"
@@ -3249,12 +2798,6 @@
       {
         "title": "プロジェクト・ヘイル・メアリー",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "17:30"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -3293,12 +2836,6 @@
         "title": "君が最後に遺した歌",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "18:00"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "18:00"
@@ -3335,14 +2872,6 @@
       {
         "title": "劇場版「暗殺教室」みんなの時間",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "8:35",
-              "16:50",
-              "21:40"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -3387,12 +2916,6 @@
         "title": "ナンバーワン戦隊ゴジュウジャーVSブンブンジャー",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "15:20"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "15:20"
@@ -3429,14 +2952,6 @@
       {
         "title": "私がビーバーになる時",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "10:45",
-              "14:10",
-              "16:25"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -3481,12 +2996,6 @@
         "title": "ゴールデンカムイ 網走監獄襲撃編",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "21:20"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "20:30"
@@ -3523,14 +3032,6 @@
       {
         "title": "超かぐや姫！",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "8:50",
-              "14:30",
-              "20:45"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -3575,12 +3076,6 @@
         "title": "ウィキッド 永遠の約束",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "18:55"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "18:55"
@@ -3617,14 +3112,6 @@
       {
         "title": "映画ドラえもん 新・のび太の海底鬼岩城",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "10:40",
-              "13:00",
-              "15:40"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -3699,12 +3186,6 @@
         "title": "映画「教場 Requiem」",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "8:30"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "8:20"
@@ -3756,12 +3237,6 @@
         "title": "ほどなく、お別れです",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "11:50"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "11:50"
@@ -3802,12 +3277,6 @@
       {
         "title": "機動戦士ガンダム 閃光のハサウェイ キルケーの魔女",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "21:45"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -3872,273 +3341,12 @@
         ],
         "movie_id": "85699",
         "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/85699.jpg"
-      },
-      {
-        "title": "映画 えんとつ町のﾌﾟﾍﾟﾙ 約束の時計台",
-        "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "08:30",
-              "19:05"
-            ]
-          },
-          {
-            "date": "2026-04-19",
-            "times": [
-              "08:30"
-            ]
-          },
-          {
-            "date": "2026-04-20",
-            "times": [
-              "11:05"
-            ]
-          },
-          {
-            "date": "2026-04-21",
-            "times": [
-              "11:05"
-            ]
-          },
-          {
-            "date": "2026-04-22",
-            "times": [
-              "11:05"
-            ]
-          },
-          {
-            "date": "2026-04-23",
-            "times": [
-              "11:05"
-            ]
-          }
-        ],
-        "movie_id": "aeon_193487",
-        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_193487.jpg"
-      },
-      {
-        "title": "教場 Requiem",
-        "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "08:30"
-            ]
-          },
-          {
-            "date": "2026-04-19",
-            "times": [
-              "08:20"
-            ]
-          },
-          {
-            "date": "2026-04-20",
-            "times": [
-              "15:45"
-            ]
-          },
-          {
-            "date": "2026-04-21",
-            "times": [
-              "15:45"
-            ]
-          },
-          {
-            "date": "2026-04-22",
-            "times": [
-              "15:45"
-            ]
-          },
-          {
-            "date": "2026-04-23",
-            "times": [
-              "15:45"
-            ]
-          }
-        ],
-        "movie_id": "aeon_211109",
-        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_211109.jpg"
-      },
-      {
-        "title": "吹替 私がﾋﾞｰﾊﾞｰになる時",
-        "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "10:45",
-              "14:10",
-              "16:25"
-            ]
-          },
-          {
-            "date": "2026-04-19",
-            "times": [
-              "10:45",
-              "13:00",
-              "15:40"
-            ]
-          },
-          {
-            "date": "2026-04-20",
-            "times": [
-              "11:55",
-              "18:55"
-            ]
-          },
-          {
-            "date": "2026-04-21",
-            "times": [
-              "11:55",
-              "18:55"
-            ]
-          },
-          {
-            "date": "2026-04-22",
-            "times": [
-              "11:55",
-              "18:55"
-            ]
-          },
-          {
-            "date": "2026-04-23",
-            "times": [
-              "11:55",
-              "18:55"
-            ]
-          }
-        ],
-        "movie_id": "aeon_205688",
-        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_205688.jpg"
-      },
-      {
-        "title": "BTS WORLD TOUR ARIRANG IN JAPAN.",
-        "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "15:00"
-            ]
-          }
-        ],
-        "movie_id": "aeon_AC101607",
-        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_AC101607.jpg"
-      },
-      {
-        "title": "吹替 ﾌﾟﾛｼﾞｪｸﾄ･ﾍｲﾙ･ﾒｱﾘｰ",
-        "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "17:30"
-            ]
-          },
-          {
-            "date": "2026-04-19",
-            "times": [
-              "17:30"
-            ]
-          },
-          {
-            "date": "2026-04-20",
-            "times": [
-              "20:55"
-            ]
-          },
-          {
-            "date": "2026-04-21",
-            "times": [
-              "20:55"
-            ]
-          },
-          {
-            "date": "2026-04-22",
-            "times": [
-              "20:55"
-            ]
-          },
-          {
-            "date": "2026-04-23",
-            "times": [
-              "20:55"
-            ]
-          }
-        ],
-        "movie_id": "aeon_203898",
-        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_203898.jpg"
-      },
-      {
-        "title": "字幕 ｳｨｷｯﾄﾞ 永遠の約束",
-        "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "18:55"
-            ]
-          },
-          {
-            "date": "2026-04-19",
-            "times": [
-              "18:55"
-            ]
-          },
-          {
-            "date": "2026-04-20",
-            "times": [
-              "18:30"
-            ]
-          },
-          {
-            "date": "2026-04-21",
-            "times": [
-              "18:30"
-            ]
-          },
-          {
-            "date": "2026-04-22",
-            "times": [
-              "18:30"
-            ]
-          },
-          {
-            "date": "2026-04-23",
-            "times": [
-              "18:30"
-            ]
-          }
-        ],
-        "movie_id": "aeon_205235",
-        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_205235.jpg"
-      },
-      {
-        "title": "舞台挨拶中継付き) 新劇場版 銀魂 吉原大炎上",
-        "schedule": [
-          {
-            "date": "2026-04-19",
-            "times": [
-              "14:00",
-              "17:20"
-            ]
-          }
-        ],
-        "movie_id": "aeon_206848",
-        "poster_url": "https://koji0505.github.io/MovieScheduleShiga/data/posters/aeon_206848.jpg"
       }
     ],
     "水口アレックスシネマ": [
       {
         "title": "人はなぜラブレターを書くのか",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "10:00",
-              "12:25",
-              "14:50",
-              "17:30",
-              "21:30"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -4196,26 +3404,6 @@
       {
         "title": "名探偵コナン ハイウェイの堕天使",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "9:15",
-              "9:50",
-              "10:30",
-              "11:30",
-              "12:45",
-              "13:45",
-              "14:15",
-              "15:00",
-              "16:00",
-              "17:15",
-              "18:15",
-              "19:30",
-              "20:00",
-              "20:45",
-              "21:45"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -4324,12 +3512,6 @@
         "title": "映画 えんとつ町のプペル ～約束の時計台～",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "11:25"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "11:25"
@@ -4366,12 +3548,6 @@
       {
         "title": "プロジェクト・ヘイル・メアリー",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "15:35"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -4410,12 +3586,6 @@
         "title": "私がビーバーになる時",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "12:10"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "12:10"
@@ -4453,12 +3623,6 @@
         "title": "ゴールデンカムイ 網走監獄襲撃編",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "19:00"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "19:00"
@@ -4495,13 +3659,6 @@
       {
         "title": "映画ドラえもん 新・のび太の海底鬼岩城",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "9:20",
-              "13:30"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -4545,12 +3702,6 @@
         "title": "映画「教場 Requiem」",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "18:35"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "18:35"
@@ -4587,12 +3738,6 @@
       {
         "title": "ほどなく、お別れです",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "16:30"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -4631,12 +3776,6 @@
         "title": "機動戦士ガンダム 閃光のハサウェイ キルケーの魔女",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "21:25"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "21:25"
@@ -4673,12 +3812,6 @@
       {
         "title": "[吹替]私がビーバーになる時",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "12:10"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -4717,12 +3850,6 @@
         "title": "[字幕]プロジェクト・ヘイル・メアリー",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "15:35"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "15:35"
@@ -4759,26 +3886,6 @@
       {
         "title": "劇場版『名探偵コナン ハイウェイの堕天使』",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "09:15",
-              "09:50",
-              "10:30",
-              "11:30",
-              "12:45",
-              "13:45",
-              "14:15",
-              "15:00",
-              "16:00",
-              "17:15",
-              "18:15",
-              "19:30",
-              "20:00",
-              "20:45",
-              "21:45"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -4889,21 +3996,6 @@
         "title": "名探偵コナン ハイウェイの堕天使",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "10:40",
-              "11:30",
-              "12:55",
-              "13:45",
-              "15:10",
-              "16:00",
-              "17:25",
-              "18:05",
-              "20:00",
-              "21:05"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "10:40",
@@ -4986,13 +4078,6 @@
         "title": "超かぐや姫！",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "13:00",
-              "20:20"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "13:00",
@@ -5034,14 +4119,6 @@
       {
         "title": "鬼の花嫁",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "10:40",
-              "15:45",
-              "21:15"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
@@ -5090,13 +4167,6 @@
         "title": "私がビーバーになる時",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "12:35",
-              "19:10"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "12:35",
@@ -5139,13 +4209,6 @@
         "title": "映画ドラえもん 新・のび太の海底鬼岩城",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "10:30",
-              "14:40"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "10:30",
@@ -5184,12 +4247,6 @@
         "title": "映画「教場 Requiem」",
         "schedule": [
           {
-            "date": "2026-04-18",
-            "times": [
-              "18:15"
-            ]
-          },
-          {
             "date": "2026-04-19",
             "times": [
               "18:15"
@@ -5226,12 +4283,6 @@
       {
         "title": "ほどなく、お別れです",
         "schedule": [
-          {
-            "date": "2026-04-18",
-            "times": [
-              "16:45"
-            ]
-          },
           {
             "date": "2026-04-19",
             "times": [
